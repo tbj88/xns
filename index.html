@@ -131,9 +131,18 @@ body.staff-mode .nav a.staff-only,body.admin-mode .nav a.staff-only,body.admin-m
 @media(max-width:900px){.regions-grid{grid-template-columns:repeat(2,1fr)}}
 
 /* === Catalog page === */
-.catalog-toolbar{display:flex;gap:12px;align-items:center;margin-bottom:28px;flex-wrap:wrap}
-.catalog-toolbar input{flex:1;min-width:240px;padding:12px 16px;border:1px solid var(--c-line);border-radius:8px;font-size:14.5px;background:#fff}
-.catalog-toolbar select{padding:12px 16px;border:1px solid var(--c-line);border-radius:8px;font-size:14.5px;background:#fff}
+/* Catalog 页顶部紧凑 */
+#page-catalog>.section{padding-top:0;padding-bottom:60px}
+/* Sticky 搜索/筛选区：吸附在顶部导航下方，跟随滚动 */
+.catalog-sticky{position:sticky;top:69px;z-index:30;background:rgba(251,246,238,.94);backdrop-filter:saturate(180%) blur(10px);margin:0 -24px 24px;padding:18px 24px 16px;border-bottom:1px solid var(--c-line);transition:box-shadow .2s}
+.catalog-sticky.is-stuck{box-shadow:0 4px 14px rgba(61,40,23,.08)}
+.catalog-sticky .page-back{margin-bottom:10px}
+.catalog-sticky .section-head{margin-bottom:10px}
+.catalog-sticky .section-head .h2{font-size:clamp(20px,2.4vw,28px);margin-bottom:0}
+.catalog-toolbar{display:flex;gap:10px;align-items:center;margin-bottom:0;flex-wrap:wrap}
+.catalog-toolbar input{flex:1;min-width:240px;padding:11px 14px;border:1px solid var(--c-line);border-radius:8px;font-size:14px;background:#fff}
+.catalog-toolbar select{padding:11px 14px;border:1px solid var(--c-line);border-radius:8px;font-size:14px;background:#fff}
+@media(max-width:900px){.catalog-sticky{top:62px;padding:10px 16px 12px;margin:0 -16px 16px}}
 .products-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .product-card{background:var(--c-card);border:1px solid var(--c-line);border-radius:var(--radius);overflow:hidden;transition:all .2s;cursor:pointer}
 .product-card:hover{transform:translateY(-3px);box-shadow:var(--shadow-md);border-color:var(--c-primary)}
@@ -388,13 +397,15 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-catalog" class="page">
   <section class="section">
     <div class="section-inner">
-      <a class="page-back" href="#" onclick="route('home');return false" data-uk="backHome">← Back to Home</a>
-      <div class="section-head" style="text-align:left" translate="no">
-        <h2 class="h2" id="catalogPageTitle" data-uk="catalogPageTitle" translate="no">Product Catalog</h2>
-      </div>
-      <div class="catalog-toolbar">
-        <input id="catalogSearch" data-uk-placeholder="catalogSearchHint" placeholder="Search by name or SKU..." oninput="renderCatalog()">
-        <select id="catalogFilter" onchange="renderCatalog()"></select>
+      <div class="catalog-sticky" id="catalogSticky">
+        <a class="page-back" href="#" onclick="route('home');return false" data-uk="backHome">← Back to Home</a>
+        <div class="section-head" style="text-align:left" translate="no">
+          <h2 class="h2" id="catalogPageTitle" data-uk="catalogPageTitle" translate="no">Product Catalog</h2>
+        </div>
+        <div class="catalog-toolbar">
+          <input id="catalogSearch" data-uk-placeholder="catalogSearchHint" placeholder="Search by name or SKU..." oninput="renderCatalog()">
+          <select id="catalogFilter" onchange="renderCatalog()"></select>
+        </div>
       </div>
       <div class="products-grid editable" data-edit="products" id="productsGrid">
         <span class="edit-affordance">✎ Edit Products</span>
@@ -576,7 +587,7 @@ function route(page){
   QA(".page").forEach(p=>p.classList.remove("active"));
   const target = Q("#page-"+page);
   if(target) target.classList.add("active");
-  if(page==="catalog") renderCatalog();
+  if(page==="catalog"){ renderCatalog(); setupStickyObserver(); }
   if(page==="intel") renderIntel("staff_intel","intelList");
   if(page==="sop") renderIntel("staff_sop","sopList");
   if(page==="certs") renderCerts();
@@ -725,6 +736,26 @@ function showHero(i){
   QA("#heroSlides .hero-slide").forEach((s,k)=>s.classList.toggle("active", k===i));
   QA("#heroDots button").forEach((b,k)=>b.classList.toggle("active", k===i));
 }
+let _stickyObserver = null;
+function setupStickyObserver(){
+  const el = Q("#catalogSticky");
+  if(!el) return;
+  if(_stickyObserver) _stickyObserver.disconnect();
+  // 用一个不可见 sentinel 放在 sticky 之前，sentinel 离开视口 = sticky 吸顶了
+  let sentinel = Q("#catalogStickySentinel");
+  if(!sentinel){
+    sentinel = document.createElement("div");
+    sentinel.id = "catalogStickySentinel";
+    sentinel.style.cssText = "position:absolute;top:-1px;height:1px;width:1px;pointer-events:none";
+    el.parentElement.style.position = "relative";
+    el.parentElement.insertBefore(sentinel, el);
+  }
+  _stickyObserver = new IntersectionObserver(([entry])=>{
+    el.classList.toggle("is-stuck", !entry.isIntersecting);
+  }, {rootMargin:"-70px 0px 0px 0px"});
+  _stickyObserver.observe(sentinel);
+}
+
 function startHeroAuto(){
   if(heroTimer) clearInterval(heroTimer);
   heroTimer = setInterval(()=>{
