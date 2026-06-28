@@ -75,7 +75,9 @@ body.staff-mode .nav a.staff-only,body.admin-mode .nav a.staff-only,body.admin-m
 /* === Sections === */
 .section{padding:80px 24px}
 .section-inner{max-width:1280px;margin:0 auto}
-.eyebrow{font-size:13px;font-weight:700;letter-spacing:2px;color:var(--c-accent);text-transform:uppercase;margin-bottom:10px}
+.eyebrow{font-size:13px;font-weight:700;letter-spacing:2px;color:var(--c-accent);text-transform:uppercase;margin-bottom:10px;display:inline-block}
+.eyebrow.linklike{cursor:pointer;transition:color .15s}
+.eyebrow.linklike:hover{color:var(--c-primary)}
 .h2{font-size:clamp(26px,3vw,38px);font-weight:800;letter-spacing:-.4px;margin-bottom:14px;color:var(--c-ink)}
 .lead{font-size:17px;color:var(--c-ink-soft);max-width:680px;margin-bottom:48px}
 .section-head{text-align:center}
@@ -327,9 +329,9 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
   <section class="section editable" data-edit="why" id="whySec">
     <span class="edit-affordance">✎ Edit Why Cards</span>
     <div class="section-inner">
-      <div class="section-head">
+      <div translate="no" class="section-head">
         <div class="eyebrow" data-uk="eyebrowWhy">WHY US</div>
-        <h2 class="h2" id="whyTitle"></h2>
+        <h2 translate="no" class="h2" id="whyTitle"></h2>
         <p class="lead" id="whySub"></p>
       </div>
       <div class="why-grid" id="whyGrid"></div>
@@ -340,9 +342,9 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
   <section class="section editable" data-edit="cats" style="background:#fff" id="catsSec">
     <span class="edit-affordance">✎ Edit Categories</span>
     <div class="section-inner">
-      <div class="section-head">
+      <div translate="no" class="section-head">
         <div class="eyebrow">CATALOG</div>
-        <h2 class="h2" id="catsTitle"></h2>
+        <h2 translate="no" class="h2" id="catsTitle"></h2>
         <p class="lead" id="catsSub"></p>
       </div>
       <div class="cats-grid" id="catsGrid"></div>
@@ -353,9 +355,9 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
   <section class="section editable" data-edit="partners" id="partnersHomeSec">
     <span class="edit-affordance">✎ Edit Partners</span>
     <div class="section-inner">
-      <div class="section-head">
+      <div translate="no" class="section-head">
         <div class="eyebrow">CUSTOMERS</div>
-        <h2 class="h2" id="partnersTitle"></h2>
+        <h2 translate="no" class="h2" id="partnersTitle"></h2>
         <p class="lead" id="partnersSub"></p>
       </div>
       <div class="partners-grid" id="partnersGrid"></div>
@@ -366,9 +368,9 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
   <section class="section editable" data-edit="regions" style="background:#fff" id="regionsSec">
     <span class="edit-affordance">✎ Edit Regions</span>
     <div class="section-inner">
-      <div class="section-head">
+      <div translate="no" class="section-head">
         <div class="eyebrow">GLOBAL REACH</div>
-        <h2 class="h2" id="regionsTitle"></h2>
+        <h2 translate="no" class="h2" id="regionsTitle"></h2>
         <p class="lead" id="regionsSub"></p>
       </div>
       <div class="regions-grid" id="regionsGrid"></div>
@@ -381,12 +383,12 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-catalog" class="page">
   <section class="section">
     <div class="section-inner">
-      <div class="section-head" style="text-align:left">
-        <div class="eyebrow" data-uk="navCatalog">CATALOG</div>
-        <h2 class="h2" id="catalogPageTitle">Product Catalog</h2>
+      <div class="section-head" style="text-align:left" translate="no">
+        <div class="eyebrow linklike" data-uk="catalogEyebrow" onclick="document.getElementById('catalogSearch').focus()">CATALOG</div>
+        <h2 class="h2" id="catalogPageTitle" data-uk="catalogPageTitle" translate="no">Product Catalog</h2>
       </div>
       <div class="catalog-toolbar">
-        <input id="catalogSearch" placeholder="Search by name or SKU..." oninput="renderCatalog()">
+        <input id="catalogSearch" data-uk-placeholder="catalogSearchHint" placeholder="Search by name or SKU..." oninput="renderCatalog()">
         <select id="catalogFilter" onchange="renderCatalog()">
           <option value="">All Categories</option>
           <option value="granulator">Copper Wire Granulators</option>
@@ -410,9 +412,9 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-certs" class="page">
   <section class="section">
     <div class="section-inner">
-      <div class="section-head">
+      <div translate="no" class="section-head">
         <div class="eyebrow">CREDENTIALS</div>
-        <h2 class="h2" id="certsTitle"></h2>
+        <h2 translate="no" class="h2" id="certsTitle"></h2>
       </div>
       <div class="certs-grid editable" data-edit="certs" id="certsGrid">
         <span class="edit-affordance">✎ Edit Credentials</span>
@@ -425,9 +427,9 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-partners" class="page">
   <section class="section">
     <div class="section-inner">
-      <div class="section-head">
+      <div translate="no" class="section-head">
         <div class="eyebrow">PARTNER INDUSTRIES</div>
-        <h2 class="h2" id="partnersPageTitle"></h2>
+        <h2 translate="no" class="h2" id="partnersPageTitle"></h2>
         <p class="lead" id="partnersPageSub"></p>
       </div>
       <div class="partners-grid" id="partnersPageGrid"></div>
@@ -439,9 +441,9 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-intel" class="page">
   <section class="section">
     <div class="section-inner">
-      <div class="section-head" style="text-align:left">
+      <div translate="no" class="section-head" style="text-align:left">
         <div class="eyebrow">INTERNAL</div>
-        <h2 class="h2">Customer Intelligence & Personas</h2>
+        <h2 translate="no" class="h2">Customer Intelligence & Personas</h2>
         <p class="lead">Staff-only insights, scraped from CRM and field intel. Updated as deals progress.</p>
       </div>
       <div class="intel-list editable" data-edit="staff_intel" id="intelList">
@@ -455,9 +457,9 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-sop" class="page">
   <section class="section">
     <div class="section-inner">
-      <div class="section-head" style="text-align:left">
+      <div translate="no" class="section-head" style="text-align:left">
         <div class="eyebrow">INTERNAL</div>
-        <h2 class="h2">Sales Scripts & SOP</h2>
+        <h2 translate="no" class="h2">Sales Scripts & SOP</h2>
         <p class="lead">Standardized response templates and follow-up procedures.</p>
       </div>
       <div class="intel-list editable" data-edit="staff_sop" id="sopList">
@@ -669,6 +671,21 @@ function renderUiText(){
     const k = el.dataset.uk;
     if(DATA.ui[k]) el.textContent = L(DATA.ui[k]);
   });
+  QA("[data-uk-placeholder]").forEach(el=>{
+    const k = el.dataset.ukPlaceholder;
+    if(DATA.ui[k]) el.placeholder = L(DATA.ui[k]);
+  });
+  // catalog filter <option>s
+  const sel = Q("#catalogFilter");
+  if(sel){
+    const cur = sel.value;
+    sel.innerHTML =
+      `<option value="">${esc(L(DATA.ui.filterAll||{}))||"All Categories"}</option>`
+    + `<option value="mat">${esc(L(DATA.ui.filterMat||{}))||"Silicone Baking Mats"}</option>`
+    + `<option value="mold">${esc(L(DATA.ui.filterMold||{}))||"Bread Molds & Pans"}</option>`
+    + `<option value="other">${esc(L(DATA.ui.filterOEM||{}))||"OEM Custom Projects"}</option>`;
+    sel.value = cur;
+  }
   // brand-level
   Q("#brand-name").textContent = DATA.brand.name;
 }
