@@ -30,335 +30,5366 @@
     }
   },
   "ui": {
-    "navHome": {"en":"Home","zh":"首页","de":"Startseite","es":"Inicio"},
-    "navCerts": {"en":"Credentials","zh":"认证资质","de":"Zertifikate","es":"Credenciales"},
-    "navCatalog": {"en":"Product Catalog","zh":"产品目录","de":"Produktkatalog","es":"Catalogo"},
-    "navPartners": {"en":"Who We Serve","zh":"合作客户","de":"Unsere Kunden","es":"A Quien Servimos"},
-    "navStaff": {"en":"Intel & Persona","zh":"情报/画像","de":"Intel & Persona","es":"Inteligencia"},
-    "navSop": {"en":"Scripts & SOP","zh":"话术/SOP","de":"Skripte & SOP","es":"Guiones & SOP"},
-    "ctaContact": {"en":"Request OEM Quote","zh":"OEM 询价","de":"OEM-Angebot","es":"Cotizacion OEM"},
-    "ctaCatalog": {"en":"View Catalog","zh":"浏览目录","de":"Katalog ansehen","es":"Ver Catalogo"},
-    "ctaInquire": {"en":"Request Quote","zh":"询价","de":"Angebot anfordern","es":"Solicitar Cotizacion"}
+    "navHome": {
+      "en": "Home",
+      "zh": "首页",
+      "de": "Startseite",
+      "es": "Inicio"
+    },
+    "navCerts": {
+      "en": "Credentials",
+      "zh": "认证资质",
+      "de": "Zertifikate",
+      "es": "Credenciales"
+    },
+    "navCatalog": {
+      "en": "Product Catalog",
+      "zh": "产品目录",
+      "de": "Produktkatalog",
+      "es": "Catalogo"
+    },
+    "navPartners": {
+      "en": "Who We Serve",
+      "zh": "合作客户",
+      "de": "Unsere Kunden",
+      "es": "A Quien Servimos"
+    },
+    "navStaff": {
+      "en": "Intel & Persona",
+      "zh": "情报/画像",
+      "de": "Intel & Persona",
+      "es": "Inteligencia"
+    },
+    "navSop": {
+      "en": "Scripts & SOP",
+      "zh": "话术/SOP",
+      "de": "Skripte & SOP",
+      "es": "Guiones & SOP"
+    },
+    "ctaContact": {
+      "en": "Request OEM Quote",
+      "zh": "OEM 询价",
+      "de": "OEM-Angebot",
+      "es": "Cotizacion OEM"
+    },
+    "ctaCatalog": {
+      "en": "View Catalog",
+      "zh": "浏览目录",
+      "de": "Katalog ansehen",
+      "es": "Ver Catalogo"
+    },
+    "ctaInquire": {
+      "en": "Request Quote",
+      "zh": "询价",
+      "de": "Angebot anfordern",
+      "es": "Solicitar Cotizacion"
+    }
   },
   "hero": [
     {
       "img": "hero/hero1.png",
-      "kicker": {"en":"FDA & LFGB CERTIFIED","zh":"FDA & LFGB 双认证","de":"FDA & LFGB ZERTIFIZIERT","es":"FDA Y LFGB CERTIFICADO"},
-      "title": {"en":"Food-Grade Silicone Baking Mats. Made for Pastry Chefs.","zh":"食品级硅胶烘焙垫 · 为糕点师打造","de":"Lebensmittelechte Silikon-Backmatten. Fur Patissiers.","es":"Tapetes de Silicona Grado Alimentario. Para Reposteros."},
-      "sub": {"en":"Custom sizes, colors and logos. Non-stick, heat-resistant up to 230°C. MOQ from 100 pcs.","zh":"支持定制尺寸、颜色与 Logo。防粘、耐温至 230°C，起订量 100 件起","de":"Custom-Grossen, Farben und Logos. Antihaft, hitzebestandig bis 230°C. MOQ ab 100 Stk.","es":"Tamanos, colores y logos personalizados. Antiadherente, resistente al calor hasta 230°C. MOQ desde 100 unidades."},
-      "ctaPrimary": {"en":"Browse Catalog","zh":"浏览产品目录","de":"Katalog durchsuchen","es":"Ver Catalogo"},
-      "ctaGhost": {"en":"Get OEM Quote","zh":"OEM 询价","de":"OEM-Angebot","es":"Cotizar OEM"}
+      "kicker": {
+        "en": "FDA & LFGB CERTIFIED",
+        "zh": "FDA & LFGB 双认证",
+        "de": "FDA & LFGB ZERTIFIZIERT",
+        "es": "FDA Y LFGB CERTIFICADO"
+      },
+      "title": {
+        "en": "Food-Grade Silicone Baking Mats. Made for Pastry Chefs.",
+        "zh": "食品级硅胶烘焙垫 · 为糕点师打造",
+        "de": "Lebensmittelechte Silikon-Backmatten. Fur Patissiers.",
+        "es": "Tapetes de Silicona Grado Alimentario. Para Reposteros."
+      },
+      "sub": {
+        "en": "Custom sizes, colors and logos. Non-stick, heat-resistant up to 230°C. MOQ from 100 pcs.",
+        "zh": "支持定制尺寸、颜色与 Logo。防粘、耐温至 230°C，起订量 100 件起",
+        "de": "Custom-Grossen, Farben und Logos. Antihaft, hitzebestandig bis 230°C. MOQ ab 100 Stk.",
+        "es": "Tamanos, colores y logos personalizados. Antiadherente, resistente al calor hasta 230°C. MOQ desde 100 unidades."
+      },
+      "ctaPrimary": {
+        "en": "Browse Catalog",
+        "zh": "浏览产品目录",
+        "de": "Katalog durchsuchen",
+        "es": "Ver Catalogo"
+      },
+      "ctaGhost": {
+        "en": "Get OEM Quote",
+        "zh": "OEM 询价",
+        "de": "OEM-Angebot",
+        "es": "Cotizar OEM"
+      }
     },
     {
       "img": "hero/hero2.png",
-      "kicker": {"en":"BREAD MOLDS & PANS","zh":"面包模与烤盘系列","de":"BROTFORMEN & BACKBLECHE","es":"MOLDES & BANDEJAS"},
-      "title": {"en":"Silicone + Fiberglass Bread Molds. Built for Production Bakeries.","zh":"硅胶+玻纤面包模 · 为产业级烘焙线设计","de":"Silikon + Glasfaser-Brotformen. Fur Backereibetriebe.","es":"Moldes de Pan Silicona + Fibra. Para Panaderias Comerciales."},
-      "sub": {"en":"5-loaf baguette forms, 12-loaf mesh trays, oblong & round loaf pans. Reusable 3000+ cycles.","zh":"5 联法棍模、12 联网孔烤盘、长方/圆形面包模。可重复使用 3000+ 次","de":"5-Brot Baguetteformen, 12-Brot Gitterformen, langliche & runde Formen. 3000+ Zyklen wiederverwendbar.","es":"Formas baguette de 5, bandejas malla de 12, moldes alargados y redondos. Reutilizable 3000+ ciclos."},
-      "ctaPrimary": {"en":"See Bread Molds","zh":"查看面包模","de":"Brotformen ansehen","es":"Ver Moldes"},
-      "ctaGhost": {"en":"Custom Sizes","zh":"定制尺寸","de":"Custom-Grossen","es":"Tamanos a Medida"}
+      "kicker": {
+        "en": "BREAD MOLDS & PANS",
+        "zh": "面包模与烤盘系列",
+        "de": "BROTFORMEN & BACKBLECHE",
+        "es": "MOLDES & BANDEJAS"
+      },
+      "title": {
+        "en": "Silicone + Fiberglass Bread Molds. Built for Production Bakeries.",
+        "zh": "硅胶+玻纤面包模 · 为产业级烘焙线设计",
+        "de": "Silikon + Glasfaser-Brotformen. Fur Backereibetriebe.",
+        "es": "Moldes de Pan Silicona + Fibra. Para Panaderias Comerciales."
+      },
+      "sub": {
+        "en": "5-loaf baguette forms, 12-loaf mesh trays, oblong & round loaf pans. Reusable 3000+ cycles.",
+        "zh": "5 联法棍模、12 联网孔烤盘、长方/圆形面包模。可重复使用 3000+ 次",
+        "de": "5-Brot Baguetteformen, 12-Brot Gitterformen, langliche & runde Formen. 3000+ Zyklen wiederverwendbar.",
+        "es": "Formas baguette de 5, bandejas malla de 12, moldes alargados y redondos. Reutilizable 3000+ ciclos."
+      },
+      "ctaPrimary": {
+        "en": "See Bread Molds",
+        "zh": "查看面包模",
+        "de": "Brotformen ansehen",
+        "es": "Ver Moldes"
+      },
+      "ctaGhost": {
+        "en": "Custom Sizes",
+        "zh": "定制尺寸",
+        "de": "Custom-Grossen",
+        "es": "Tamanos a Medida"
+      }
     },
     {
       "img": "hero/hero3.png",
-      "kicker": {"en":"OEM / ODM WELCOME","zh":"OEM / ODM 欢迎","de":"OEM / ODM WILLKOMMEN","es":"OEM / ODM BIENVENIDO"},
-      "title": {"en":"From Concept to Container. Full OEM Service.","zh":"从设计到货柜 · 完整 OEM 服务","de":"Vom Konzept zum Container. Voller OEM-Service.","es":"Del Concepto al Contenedor. Servicio OEM Completo."},
-      "sub": {"en":"Custom molds in 15 days. Pantone color matching. Amazon-ready packaging (OPP bag, hangtag, barcode).","zh":"15 天开模周期。Pantone 配色。亚马逊封装就绪（OPP 袋+吊牌+条码）","de":"Custom-Formen in 15 Tagen. Pantone-Farbabgleich. Amazon-fertige Verpackung.","es":"Moldes a medida en 15 dias. Coincidencia Pantone. Empaque listo para Amazon."},
-      "ctaPrimary": {"en":"Start OEM Project","zh":"启动 OEM 项目","de":"OEM-Projekt starten","es":"Iniciar Proyecto OEM"},
-      "ctaGhost": {"en":"Our Process","zh":"工艺流程","de":"Unser Prozess","es":"Nuestro Proceso"}
+      "kicker": {
+        "en": "OEM / ODM WELCOME",
+        "zh": "OEM / ODM 欢迎",
+        "de": "OEM / ODM WILLKOMMEN",
+        "es": "OEM / ODM BIENVENIDO"
+      },
+      "title": {
+        "en": "From Concept to Container. Full OEM Service.",
+        "zh": "从设计到货柜 · 完整 OEM 服务",
+        "de": "Vom Konzept zum Container. Voller OEM-Service.",
+        "es": "Del Concepto al Contenedor. Servicio OEM Completo."
+      },
+      "sub": {
+        "en": "Custom molds in 15 days. Pantone color matching. Amazon-ready packaging (OPP bag, hangtag, barcode).",
+        "zh": "15 天开模周期。Pantone 配色。亚马逊封装就绪（OPP 袋+吊牌+条码）",
+        "de": "Custom-Formen in 15 Tagen. Pantone-Farbabgleich. Amazon-fertige Verpackung.",
+        "es": "Moldes a medida en 15 dias. Coincidencia Pantone. Empaque listo para Amazon."
+      },
+      "ctaPrimary": {
+        "en": "Start OEM Project",
+        "zh": "启动 OEM 项目",
+        "de": "OEM-Projekt starten",
+        "es": "Iniciar Proyecto OEM"
+      },
+      "ctaGhost": {
+        "en": "Our Process",
+        "zh": "工艺流程",
+        "de": "Unser Prozess",
+        "es": "Nuestro Proceso"
+      }
     }
   ],
   "stats": [
-    {"value":"FDA", "label":{"en":"Food-Grade Certified","zh":"食品级认证","de":"Lebensmittelecht","es":"Grado Alimentario"}},
-    {"value":"100", "label":{"en":"Pieces MOQ","zh":"件起订量","de":"Stuck MOQ","es":"Piezas MOQ"}},
-    {"value":"15D", "label":{"en":"Custom Mold Lead Time","zh":"开模周期","de":"Werkzeug-Vorlaufzeit","es":"Tiempo de Molde"}},
-    {"value":"230°C", "label":{"en":"Heat Resistance","zh":"耐温上限","de":"Hitzebestandigkeit","es":"Resistencia al Calor"}}
+    {
+      "value": "FDA",
+      "label": {
+        "en": "Food-Grade Certified",
+        "zh": "食品级认证",
+        "de": "Lebensmittelecht",
+        "es": "Grado Alimentario"
+      }
+    },
+    {
+      "value": "100",
+      "label": {
+        "en": "Pieces MOQ",
+        "zh": "件起订量",
+        "de": "Stuck MOQ",
+        "es": "Piezas MOQ"
+      }
+    },
+    {
+      "value": "15D",
+      "label": {
+        "en": "Custom Mold Lead Time",
+        "zh": "开模周期",
+        "de": "Werkzeug-Vorlaufzeit",
+        "es": "Tiempo de Molde"
+      }
+    },
+    {
+      "value": "230°C",
+      "label": {
+        "en": "Heat Resistance",
+        "zh": "耐温上限",
+        "de": "Hitzebestandigkeit",
+        "es": "Resistencia al Calor"
+      }
+    }
   ],
-  "whyTitle": {"en":"Why XinNeng","zh":"为什么选新能","de":"Warum XinNeng","es":"Por que XinNeng"},
-  "whySub": {"en":"Six reasons buyers from Amazon, retailers and bakery chains source from us.","zh":"亚马逊卖家、零售商与连锁烘焙店选择新能的六大理由","de":"Sechs Grunde, warum Amazon-Verkaufer, Handler und Backereiketten bei uns einkaufen.","es":"Seis razones por las que vendedores de Amazon, minoristas y cadenas de panaderia nos eligen."},
+  "whyTitle": {
+    "en": "Why XinNeng",
+    "zh": "为什么选新能",
+    "de": "Warum XinNeng",
+    "es": "Por que XinNeng"
+  },
+  "whySub": {
+    "en": "Six reasons buyers from Amazon, retailers and bakery chains source from us.",
+    "zh": "亚马逊卖家、零售商与连锁烘焙店选择新能的六大理由",
+    "de": "Sechs Grunde, warum Amazon-Verkaufer, Handler und Backereiketten bei uns einkaufen.",
+    "es": "Seis razones por las que vendedores de Amazon, minoristas y cadenas de panaderia nos eligen."
+  },
   "why": [
     {
-      "icon":"🧪",
-      "title":{"en":"FDA + LFGB Food-Grade","zh":"FDA + LFGB 食品级双认证","de":"FDA + LFGB Lebensmittelecht","es":"FDA + LFGB Grado Alimentario"},
-      "desc":{"en":"Every batch tested. US FDA 21 CFR 177.2600 + EU LFGB compliant. SGS reports on request.","zh":"批次检测。符合美国 FDA 21 CFR 177.2600 与欧盟 LFGB 标准。SGS 报告随单出","de":"Jede Charge getestet. US FDA 21 CFR 177.2600 + EU LFGB konform. SGS-Berichte auf Anfrage.","es":"Cada lote probado. Cumple US FDA 21 CFR 177.2600 + UE LFGB. Informes SGS bajo solicitud."},
-      "cta":{"en":"View Certificates","zh":"查看证书","de":"Zertifikate ansehen","es":"Ver Certificados"},
-      "link":"#certs"
+      "icon": "🧪",
+      "title": {
+        "en": "FDA + LFGB Food-Grade",
+        "zh": "FDA + LFGB 食品级双认证",
+        "de": "FDA + LFGB Lebensmittelecht",
+        "es": "FDA + LFGB Grado Alimentario"
+      },
+      "desc": {
+        "en": "Every batch tested. US FDA 21 CFR 177.2600 + EU LFGB compliant. SGS reports on request.",
+        "zh": "批次检测。符合美国 FDA 21 CFR 177.2600 与欧盟 LFGB 标准。SGS 报告随单出",
+        "de": "Jede Charge getestet. US FDA 21 CFR 177.2600 + EU LFGB konform. SGS-Berichte auf Anfrage.",
+        "es": "Cada lote probado. Cumple US FDA 21 CFR 177.2600 + UE LFGB. Informes SGS bajo solicitud."
+      },
+      "cta": {
+        "en": "View Certificates",
+        "zh": "查看证书",
+        "de": "Zertifikate ansehen",
+        "es": "Ver Certificados"
+      },
+      "link": "#certs"
     },
     {
-      "icon":"🎨",
-      "title":{"en":"Full OEM Customization","zh":"全套 OEM 定制","de":"Komplette OEM-Anpassung","es":"Personalizacion OEM Completa"},
-      "desc":{"en":"Your logo, your Pantone, your packaging. Open new molds in 15 days. We handle Amazon-ready barcodes and hangtags.","zh":"您的 Logo、您的 Pantone 色、您的包装。15 天开新模。亚马逊条码与吊牌一并搞定","de":"Ihr Logo, Ihr Pantone, Ihre Verpackung. Neue Formen in 15 Tagen.","es":"Su logo, su Pantone, su empaque. Nuevos moldes en 15 dias."},
-      "cta":{"en":"OEM Process","zh":"OEM 流程","de":"OEM-Prozess","es":"Proceso OEM"},
-      "link":"#contact"
+      "icon": "🎨",
+      "title": {
+        "en": "Full OEM Customization",
+        "zh": "全套 OEM 定制",
+        "de": "Komplette OEM-Anpassung",
+        "es": "Personalizacion OEM Completa"
+      },
+      "desc": {
+        "en": "Your logo, your Pantone, your packaging. Open new molds in 15 days. We handle Amazon-ready barcodes and hangtags.",
+        "zh": "您的 Logo、您的 Pantone 色、您的包装。15 天开新模。亚马逊条码与吊牌一并搞定",
+        "de": "Ihr Logo, Ihr Pantone, Ihre Verpackung. Neue Formen in 15 Tagen.",
+        "es": "Su logo, su Pantone, su empaque. Nuevos moldes en 15 dias."
+      },
+      "cta": {
+        "en": "OEM Process",
+        "zh": "OEM 流程",
+        "de": "OEM-Prozess",
+        "es": "Proceso OEM"
+      },
+      "link": "#contact"
     },
     {
-      "icon":"📦",
-      "title":{"en":"Low MOQ - From 100 Pieces","zh":"超低起订量 · 100 件起","de":"Niedriges MOQ - ab 100 Stuck","es":"MOQ Bajo - desde 100 piezas"},
-      "desc":{"en":"Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.","zh":"无需囤一柜先试水。多数爆款 SKU 100 件即发货","de":"Markt testen ohne Container-Verpflichtung. Viele Bestseller ab 100 Stk.","es":"Pruebe el mercado sin comprometer un contenedor. Muchos best-sellers desde 100 unidades."},
-      "cta":{"en":"View Catalog","zh":"浏览目录","de":"Katalog ansehen","es":"Ver Catalogo"},
-      "link":"#catalog"
+      "icon": "📦",
+      "title": {
+        "en": "Low MOQ - From 100 Pieces",
+        "zh": "超低起订量 · 100 件起",
+        "de": "Niedriges MOQ - ab 100 Stuck",
+        "es": "MOQ Bajo - desde 100 piezas"
+      },
+      "desc": {
+        "en": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
+        "zh": "无需囤一柜先试水。多数爆款 SKU 100 件即发货",
+        "de": "Markt testen ohne Container-Verpflichtung. Viele Bestseller ab 100 Stk.",
+        "es": "Pruebe el mercado sin comprometer un contenedor. Muchos best-sellers desde 100 unidades."
+      },
+      "cta": {
+        "en": "View Catalog",
+        "zh": "浏览目录",
+        "de": "Katalog ansehen",
+        "es": "Ver Catalogo"
+      },
+      "link": "#catalog"
     },
     {
-      "icon":"🔬",
-      "title":{"en":"20+ Years of Silicone R&D","zh":"20+ 年硅胶研发经验","de":"20+ Jahre Silikon-F&E","es":"20+ Anos de I+D en Silicona"},
-      "desc":{"en":"Our core team has 20+ years in silicone rubber chemistry and molding. We solve the technical problems your other vendors gave up on.","zh":"核心团队 20+ 年硅胶橡胶配方与成型经验。其他供应商解决不了的技术问题，我们能","de":"Unser Kernteam hat 20+ Jahre Silikonkautschuk-Chemie und Formgebungserfahrung.","es":"Nuestro equipo central tiene 20+ anos en quimica de caucho de silicona y moldeo."},
-      "cta":{"en":"Talk to Engineer","zh":"联系工程师","de":"Mit Ingenieur sprechen","es":"Hablar con Ingeniero"},
-      "link":"#contact"
+      "icon": "🔬",
+      "title": {
+        "en": "20+ Years of Silicone R&D",
+        "zh": "20+ 年硅胶研发经验",
+        "de": "20+ Jahre Silikon-F&E",
+        "es": "20+ Anos de I+D en Silicona"
+      },
+      "desc": {
+        "en": "Our core team has 20+ years in silicone rubber chemistry and molding. We solve the technical problems your other vendors gave up on.",
+        "zh": "核心团队 20+ 年硅胶橡胶配方与成型经验。其他供应商解决不了的技术问题，我们能",
+        "de": "Unser Kernteam hat 20+ Jahre Silikonkautschuk-Chemie und Formgebungserfahrung.",
+        "es": "Nuestro equipo central tiene 20+ anos en quimica de caucho de silicona y moldeo."
+      },
+      "cta": {
+        "en": "Talk to Engineer",
+        "zh": "联系工程师",
+        "de": "Mit Ingenieur sprechen",
+        "es": "Hablar con Ingeniero"
+      },
+      "link": "#contact"
     },
     {
-      "icon":"🏭",
-      "title":{"en":"In-House Mold Workshop","zh":"自有开模车间","de":"Hauseigene Werkzeugbau","es":"Taller de Moldes Propio"},
-      "desc":{"en":"We make our own steel molds in-house. No third-party delays, no leaked designs. Your IP stays with you.","zh":"自有钢模车间。无第三方延期、无设计外泄风险。您的知识产权归您所有","de":"Wir bauen unsere Stahlformen selbst. Keine Drittpartei-Verzogerungen, kein Design-Leak.","es":"Hacemos nuestros propios moldes de acero internamente. Sin retrasos de terceros, sin filtraciones de diseno."},
-      "cta":{"en":"Learn More","zh":"了解更多","de":"Mehr erfahren","es":"Mas Informacion"},
-      "link":"#certs"
+      "icon": "🏭",
+      "title": {
+        "en": "In-House Mold Workshop",
+        "zh": "自有开模车间",
+        "de": "Hauseigene Werkzeugbau",
+        "es": "Taller de Moldes Propio"
+      },
+      "desc": {
+        "en": "We make our own steel molds in-house. No third-party delays, no leaked designs. Your IP stays with you.",
+        "zh": "自有钢模车间。无第三方延期、无设计外泄风险。您的知识产权归您所有",
+        "de": "Wir bauen unsere Stahlformen selbst. Keine Drittpartei-Verzogerungen, kein Design-Leak.",
+        "es": "Hacemos nuestros propios moldes de acero internamente. Sin retrasos de terceros, sin filtraciones de diseno."
+      },
+      "cta": {
+        "en": "Learn More",
+        "zh": "了解更多",
+        "de": "Mehr erfahren",
+        "es": "Mas Informacion"
+      },
+      "link": "#certs"
     },
     {
-      "icon":"🚢",
-      "title":{"en":"Trade Assurance Backed","zh":"贸易保障护航","de":"Trade Assurance abgesichert","es":"Garantia Comercial Respaldada"},
-      "desc":{"en":"All orders covered by Alibaba.com Trade Assurance. 100% quality and on-time shipping protection.","zh":"全部订单纳入 Alibaba.com 贸易保障。100% 品质与交期保护","de":"Alle Auftrage durch Alibaba.com Trade Assurance abgedeckt.","es":"Todos los pedidos cubiertos por Trade Assurance de Alibaba.com."},
-      "cta":{"en":"How It Works","zh":"运作方式","de":"So funktioniert es","es":"Como Funciona"},
-      "link":"#certs"
+      "icon": "🚢",
+      "title": {
+        "en": "Trade Assurance Backed",
+        "zh": "贸易保障护航",
+        "de": "Trade Assurance abgesichert",
+        "es": "Garantia Comercial Respaldada"
+      },
+      "desc": {
+        "en": "All orders covered by Alibaba.com Trade Assurance. 100% quality and on-time shipping protection.",
+        "zh": "全部订单纳入 Alibaba.com 贸易保障。100% 品质与交期保护",
+        "de": "Alle Auftrage durch Alibaba.com Trade Assurance abgedeckt.",
+        "es": "Todos los pedidos cubiertos por Trade Assurance de Alibaba.com."
+      },
+      "cta": {
+        "en": "How It Works",
+        "zh": "运作方式",
+        "de": "So funktioniert es",
+        "es": "Como Funciona"
+      },
+      "link": "#certs"
     }
   ],
-  "catsTitle": {"en":"Three Product Lines","zh":"三大产品线","de":"Drei Produktlinien","es":"Tres Lineas de Producto"},
-  "catsSub": {"en":"Pick your starting point. We OEM the rest.","zh":"选择起点，余下交给我们 OEM","de":"Wahlen Sie Ihren Einstieg. Den Rest OEMen wir.","es":"Elija su punto de partida. Nosotros hacemos el OEM del resto."},
+  "catsTitle": {
+    "en": "Three Product Lines",
+    "zh": "三大产品线",
+    "de": "Drei Produktlinien",
+    "es": "Tres Lineas de Producto"
+  },
+  "catsSub": {
+    "en": "Pick your starting point. We OEM the rest.",
+    "zh": "选择起点，余下交给我们 OEM",
+    "de": "Wahlen Sie Ihren Einstieg. Den Rest OEMen wir.",
+    "es": "Elija su punto de partida. Nosotros hacemos el OEM del resto."
+  },
   "cats": [
     {
-      "img":"products/mat-macaron.jpg",
-      "title":{"en":"Silicone Baking Mats","zh":"硅胶烘焙垫","de":"Silikon-Backmatten","es":"Tapetes de Silicona"},
-      "sub":{"en":"Macaron, cooking, kneading, perforated, Dutch oven liner.","zh":"马卡龙垫、料理垫、揉面垫、孔洞垫、荷兰锅烤垫","de":"Macaron, Koch, Knet, perforiert, Dutch Oven Liner.","es":"Macaron, cocina, amasar, perforado, forro Dutch oven."},
-      "searchKey":"mat"
+      "img": "products/mat-macaron.jpg",
+      "title": {
+        "en": "Silicone Baking Mats",
+        "zh": "硅胶烘焙垫",
+        "de": "Silikon-Backmatten",
+        "es": "Tapetes de Silicona"
+      },
+      "sub": {
+        "en": "Macaron, cooking, kneading, perforated, Dutch oven liner.",
+        "zh": "马卡龙垫、料理垫、揉面垫、孔洞垫、荷兰锅烤垫",
+        "de": "Macaron, Koch, Knet, perforiert, Dutch Oven Liner.",
+        "es": "Macaron, cocina, amasar, perforado, forro Dutch oven."
+      },
+      "searchKey": "mat"
     },
     {
-      "img":"products/mold-baguette.jpg",
-      "title":{"en":"Bread Molds & Pans","zh":"面包模与烤盘","de":"Brotformen & Backbleche","es":"Moldes & Bandejas"},
-      "sub":{"en":"Baguette, loaf, hot-dog, mesh trays. Fiberglass-reinforced.","zh":"法棍、吐司、热狗、网孔烤盘。玻纤加强","de":"Baguette, Brot, Hot-Dog, Gitterformen. Glasfaserverstarkt.","es":"Baguette, pan, hot-dog, bandejas malla. Reforzado con fibra de vidrio."},
-      "searchKey":"mold"
+      "img": "products/mold-baguette.jpg",
+      "title": {
+        "en": "Bread Molds & Pans",
+        "zh": "面包模与烤盘",
+        "de": "Brotformen & Backbleche",
+        "es": "Moldes & Bandejas"
+      },
+      "sub": {
+        "en": "Baguette, loaf, hot-dog, mesh trays. Fiberglass-reinforced.",
+        "zh": "法棍、吐司、热狗、网孔烤盘。玻纤加强",
+        "de": "Baguette, Brot, Hot-Dog, Gitterformen. Glasfaserverstarkt.",
+        "es": "Baguette, pan, hot-dog, bandejas malla. Reforzado con fibra de vidrio."
+      },
+      "searchKey": "mold"
     },
     {
-      "img":"products/mat-dough.jpg",
-      "title":{"en":"OEM Custom Projects","zh":"OEM 定制项目","de":"OEM Custom-Projekte","es":"Proyectos OEM"},
-      "sub":{"en":"Your design, your logo, your packaging. New mold in 15 days.","zh":"您的设计、您的 Logo、您的包装。15 天开新模","de":"Ihr Design, Ihr Logo, Ihre Verpackung. Neue Form in 15 Tagen.","es":"Su diseno, su logo, su empaque. Nuevo molde en 15 dias."},
-      "searchKey":""
+      "img": "products/p41.jpg",
+      "title": {
+        "en": "OEM Custom Projects",
+        "zh": "OEM 定制项目",
+        "de": "OEM Custom-Projekte",
+        "es": "Proyectos OEM"
+      },
+      "sub": {
+        "en": "Your design, your logo, your packaging. New mold in 15 days.",
+        "zh": "您的设计、您的 Logo、您的包装。15 天开新模",
+        "de": "Ihr Design, Ihr Logo, Ihre Verpackung. Neue Form in 15 Tagen.",
+        "es": "Su diseno, su logo, su empaque. Nuevo molde en 15 dias."
+      },
+      "searchKey": ""
     }
   ],
-  "partnersTitle": {"en":"Who We Serve","zh":"合作客户类型","de":"Unsere Kunden","es":"A Quien Servimos"},
-  "partnersSub": {"en":"The buyers running our silicone every day.","zh":"每天使用我们硅胶产品的买家类型","de":"Die Einkaufer, die taglich unser Silikon verwenden.","es":"Los compradores que usan nuestra silicona a diario."},
+  "partnersTitle": {
+    "en": "Who We Serve",
+    "zh": "合作客户类型",
+    "de": "Unsere Kunden",
+    "es": "A Quien Servimos"
+  },
+  "partnersSub": {
+    "en": "The buyers running our silicone every day.",
+    "zh": "每天使用我们硅胶产品的买家类型",
+    "de": "Die Einkaufer, die taglich unser Silikon verwenden.",
+    "es": "Los compradores que usan nuestra silicona a diario."
+  },
   "partners": [
-    {"name":{"en":"Amazon Sellers","zh":"亚马逊卖家","de":"Amazon-Verkaufer","es":"Vendedores de Amazon"}, "icon":"📦", "color":"#C84520"},
-    {"name":{"en":"Retail Chains","zh":"零售连锁","de":"Einzelhandelsketten","es":"Cadenas Minoristas"}, "icon":"🏪", "color":"#E89B3A"},
-    {"name":{"en":"Supermarket Private Label","zh":"超市自有品牌","de":"Supermarkt-Eigenmarken","es":"Marca Blanca Supermercado"}, "icon":"🛒", "color":"#8A2F14"},
-    {"name":{"en":"Bakery Chains","zh":"烘焙连锁","de":"Backereiketten","es":"Cadenas de Panaderia"}, "icon":"🥐", "color":"#C84520"},
-    {"name":{"en":"DTC Kitchen Brands","zh":"独立厨房品牌","de":"DTC-Kuchenmarken","es":"Marcas DTC de Cocina"}, "icon":"🍳", "color":"#E89B3A"},
-    {"name":{"en":"Kitchenware Distributors","zh":"厨具批发商","de":"Kuchengerate-Distributoren","es":"Distribuidores de Cocina"}, "icon":"🥧", "color":"#8A2F14"}
+    {
+      "name": {
+        "en": "Amazon Sellers",
+        "zh": "亚马逊卖家",
+        "de": "Amazon-Verkaufer",
+        "es": "Vendedores de Amazon"
+      },
+      "icon": "📦",
+      "color": "#C84520"
+    },
+    {
+      "name": {
+        "en": "Retail Chains",
+        "zh": "零售连锁",
+        "de": "Einzelhandelsketten",
+        "es": "Cadenas Minoristas"
+      },
+      "icon": "🏪",
+      "color": "#E89B3A"
+    },
+    {
+      "name": {
+        "en": "Supermarket Private Label",
+        "zh": "超市自有品牌",
+        "de": "Supermarkt-Eigenmarken",
+        "es": "Marca Blanca Supermercado"
+      },
+      "icon": "🛒",
+      "color": "#8A2F14"
+    },
+    {
+      "name": {
+        "en": "Bakery Chains",
+        "zh": "烘焙连锁",
+        "de": "Backereiketten",
+        "es": "Cadenas de Panaderia"
+      },
+      "icon": "🥐",
+      "color": "#C84520"
+    },
+    {
+      "name": {
+        "en": "DTC Kitchen Brands",
+        "zh": "独立厨房品牌",
+        "de": "DTC-Kuchenmarken",
+        "es": "Marcas DTC de Cocina"
+      },
+      "icon": "🍳",
+      "color": "#E89B3A"
+    },
+    {
+      "name": {
+        "en": "Kitchenware Distributors",
+        "zh": "厨具批发商",
+        "de": "Kuchengerate-Distributoren",
+        "es": "Distribuidores de Cocina"
+      },
+      "icon": "🥧",
+      "color": "#8A2F14"
+    }
   ],
-  "regionsTitle": {"en":"Markets We Serve","zh":"服务市场","de":"Unsere Markte","es":"Nuestros Mercados"},
-  "regionsSub": {"en":"Active wholesale partners across four major regions.","zh":"四大地区批发渠道在运行","de":"Aktive Grosshandelspartner in vier Hauptregionen.","es":"Socios mayoristas activos en cuatro regiones principales."},
+  "regionsTitle": {
+    "en": "Markets We Serve",
+    "zh": "服务市场",
+    "de": "Unsere Markte",
+    "es": "Nuestros Mercados"
+  },
+  "regionsSub": {
+    "en": "Active wholesale partners across four major regions.",
+    "zh": "四大地区批发渠道在运行",
+    "de": "Aktive Grosshandelspartner in vier Hauptregionen.",
+    "es": "Socios mayoristas activos en cuatro regiones principales."
+  },
   "regions": [
-    {"flag":"🇺🇸", "name":{"en":"North America","zh":"北美","de":"Nordamerika","es":"Norteamerica"}, "sub":{"en":"USA, Canada, Mexico","zh":"美国、加拿大、墨西哥","de":"USA, Kanada, Mexiko","es":"EE.UU., Canada, Mexico"}},
-    {"flag":"🇪🇺", "name":{"en":"Western Europe","zh":"西欧","de":"Westeuropa","es":"Europa Occidental"}, "sub":{"en":"Germany, France, UK, Netherlands","zh":"德国、法国、英国、荷兰","de":"Deutschland, Frankreich, UK, Niederlande","es":"Alemania, Francia, Reino Unido, Paises Bajos"}},
-    {"flag":"🇪🇸", "name":{"en":"Southern Europe","zh":"南欧","de":"Sudeuropa","es":"Europa del Sur"}, "sub":{"en":"Spain, Italy, Portugal, Greece","zh":"西班牙、意大利、葡萄牙、希腊","de":"Spanien, Italien, Portugal, Griechenland","es":"Espana, Italia, Portugal, Grecia"}},
-    {"flag":"🇦🇺", "name":{"en":"Oceania","zh":"大洋洲","de":"Ozeanien","es":"Oceania"}, "sub":{"en":"Australia, New Zealand","zh":"澳大利亚、新西兰","de":"Australien, Neuseeland","es":"Australia, Nueva Zelanda"}}
+    {
+      "flag": "🇺🇸",
+      "name": {
+        "en": "North America",
+        "zh": "北美",
+        "de": "Nordamerika",
+        "es": "Norteamerica"
+      },
+      "sub": {
+        "en": "USA, Canada, Mexico",
+        "zh": "美国、加拿大、墨西哥",
+        "de": "USA, Kanada, Mexiko",
+        "es": "EE.UU., Canada, Mexico"
+      }
+    },
+    {
+      "flag": "🇪🇺",
+      "name": {
+        "en": "Western Europe",
+        "zh": "西欧",
+        "de": "Westeuropa",
+        "es": "Europa Occidental"
+      },
+      "sub": {
+        "en": "Germany, France, UK, Netherlands",
+        "zh": "德国、法国、英国、荷兰",
+        "de": "Deutschland, Frankreich, UK, Niederlande",
+        "es": "Alemania, Francia, Reino Unido, Paises Bajos"
+      }
+    },
+    {
+      "flag": "🇪🇸",
+      "name": {
+        "en": "Southern Europe",
+        "zh": "南欧",
+        "de": "Sudeuropa",
+        "es": "Europa del Sur"
+      },
+      "sub": {
+        "en": "Spain, Italy, Portugal, Greece",
+        "zh": "西班牙、意大利、葡萄牙、希腊",
+        "de": "Spanien, Italien, Portugal, Griechenland",
+        "es": "Espana, Italia, Portugal, Grecia"
+      }
+    },
+    {
+      "flag": "🇦🇺",
+      "name": {
+        "en": "Oceania",
+        "zh": "大洋洲",
+        "de": "Ozeanien",
+        "es": "Oceania"
+      },
+      "sub": {
+        "en": "Australia, New Zealand",
+        "zh": "澳大利亚、新西兰",
+        "de": "Australien, Neuseeland",
+        "es": "Australia, Nueva Zelanda"
+      }
+    }
   ],
-  "certsTitle": {"en":"Credentials & Compliance","zh":"认证与合规","de":"Zertifikate & Compliance","es":"Credenciales y Cumplimiento"},
+  "certsTitle": {
+    "en": "Credentials & Compliance",
+    "zh": "认证与合规",
+    "de": "Zertifikate & Compliance",
+    "es": "Credenciales y Cumplimiento"
+  },
   "certs": [
     {
-      "title": {"en":"US FDA 21 CFR 177.2600","zh":"美国 FDA 21 CFR 177.2600","de":"US FDA 21 CFR 177.2600","es":"US FDA 21 CFR 177.2600"},
-      "desc": {"en":"All silicone formulations comply with US FDA regulation for rubber articles intended for repeated use in contact with food.","zh":"全部硅胶配方符合美国 FDA 关于反复接触食品的橡胶制品规定","de":"Alle Silikonformulierungen entsprechen der US FDA-Verordnung fur Gummiartikel im wiederholten Lebensmittelkontakt.","es":"Todas las formulaciones de silicona cumplen con la regulacion US FDA para articulos de caucho en contacto repetido con alimentos."},
-      "image":"",
-      "verifyLabel":{"en":"View Certificate","zh":"查看证书","de":"Zertifikat ansehen","es":"Ver Certificado"},
-      "verifyUrl":""
+      "title": {
+        "en": "US FDA 21 CFR 177.2600",
+        "zh": "美国 FDA 21 CFR 177.2600",
+        "de": "US FDA 21 CFR 177.2600",
+        "es": "US FDA 21 CFR 177.2600"
+      },
+      "desc": {
+        "en": "All silicone formulations comply with US FDA regulation for rubber articles intended for repeated use in contact with food.",
+        "zh": "全部硅胶配方符合美国 FDA 关于反复接触食品的橡胶制品规定",
+        "de": "Alle Silikonformulierungen entsprechen der US FDA-Verordnung fur Gummiartikel im wiederholten Lebensmittelkontakt.",
+        "es": "Todas las formulaciones de silicona cumplen con la regulacion US FDA para articulos de caucho en contacto repetido con alimentos."
+      },
+      "image": "",
+      "verifyLabel": {
+        "en": "View Certificate",
+        "zh": "查看证书",
+        "de": "Zertifikat ansehen",
+        "es": "Ver Certificado"
+      },
+      "verifyUrl": ""
     },
     {
-      "title": {"en":"EU LFGB §30 & §31","zh":"欧盟 LFGB §30 / §31","de":"EU LFGB §30 & §31","es":"UE LFGB §30 y §31"},
-      "desc": {"en":"German LFGB tested for migration, organoleptic and heavy metals. Standard for the European retail market.","zh":"德国 LFGB 迁移、感官与重金属检测。欧洲零售市场标准","de":"Deutsches LFGB getestet auf Migration, Organoleptik und Schwermetalle. Standard fur EU-Einzelhandel.","es":"LFGB aleman probado para migracion, organolepticos y metales pesados. Estandar para el mercado minorista europeo."},
-      "image":"",
-      "verifyLabel":{"en":"View Certificate","zh":"查看证书","de":"Zertifikat ansehen","es":"Ver Certificado"},
-      "verifyUrl":""
+      "title": {
+        "en": "EU LFGB §30 & §31",
+        "zh": "欧盟 LFGB §30 / §31",
+        "de": "EU LFGB §30 & §31",
+        "es": "UE LFGB §30 y §31"
+      },
+      "desc": {
+        "en": "German LFGB tested for migration, organoleptic and heavy metals. Standard for the European retail market.",
+        "zh": "德国 LFGB 迁移、感官与重金属检测。欧洲零售市场标准",
+        "de": "Deutsches LFGB getestet auf Migration, Organoleptik und Schwermetalle. Standard fur EU-Einzelhandel.",
+        "es": "LFGB aleman probado para migracion, organolepticos y metales pesados. Estandar para el mercado minorista europeo."
+      },
+      "image": "",
+      "verifyLabel": {
+        "en": "View Certificate",
+        "zh": "查看证书",
+        "de": "Zertifikat ansehen",
+        "es": "Ver Certificado"
+      },
+      "verifyUrl": ""
     },
     {
-      "title": {"en":"SGS Third-Party Inspection","zh":"SGS 第三方检测","de":"SGS Drittprufung","es":"Inspeccion SGS"},
-      "desc": {"en":"Per-shipment SGS reports available for big-box retailers and Amazon brand registry compliance.","zh":"按批次提供 SGS 报告，满足大型零售商与亚马逊品牌备案要求","de":"SGS-Berichte pro Lieferung verfugbar fur Grosshandler und Amazon-Markenregistrierung.","es":"Informes SGS por envio disponibles para grandes minoristas y registro de marca Amazon."},
-      "image":"",
-      "verifyLabel":{"en":"Request Sample Report","zh":"申请样本报告","de":"Musterbericht anfordern","es":"Solicitar Informe"},
-      "verifyUrl":""
+      "title": {
+        "en": "SGS Third-Party Inspection",
+        "zh": "SGS 第三方检测",
+        "de": "SGS Drittprufung",
+        "es": "Inspeccion SGS"
+      },
+      "desc": {
+        "en": "Per-shipment SGS reports available for big-box retailers and Amazon brand registry compliance.",
+        "zh": "按批次提供 SGS 报告，满足大型零售商与亚马逊品牌备案要求",
+        "de": "SGS-Berichte pro Lieferung verfugbar fur Grosshandler und Amazon-Markenregistrierung.",
+        "es": "Informes SGS por envio disponibles para grandes minoristas y registro de marca Amazon."
+      },
+      "image": "",
+      "verifyLabel": {
+        "en": "Request Sample Report",
+        "zh": "申请样本报告",
+        "de": "Musterbericht anfordern",
+        "es": "Solicitar Informe"
+      },
+      "verifyUrl": ""
     }
   ],
   "products": [
     {
-      "id":"mat-baking-basic",
-      "name":{"en":"Heat-Resistant Custom Silicone Baking Mat","zh":"耐温定制硅胶烘焙垫","de":"Hitzebestandige Custom Silikon-Backmatte","es":"Tapete de Silicona Personalizado Termorresistente"},
-      "sku":"XN-MAT-101",
-      "price":"USD 1.18 - 1.45 / pc",
-      "moq":"100 pieces",
-      "category":"mat",
-      "images":["products/mat-baking.jpg"],
-      "video":"",
-      "specs":[
-        {"k":{"en":"Material","zh":"材质","de":"Material","es":"Material"}, "v":"100% Food-Grade Silicone (FDA/LFGB)"},
-        {"k":{"en":"Heat Resistance","zh":"耐温","de":"Hitzebestandigkeit","es":"Resistencia"}, "v":"-40°C to 230°C"},
-        {"k":{"en":"Standard Sizes","zh":"标准尺寸","de":"Standardgrossen","es":"Tamanos"}, "v":"30×40 / 40×60 cm (custom OK)"},
-        {"k":{"en":"Thickness","zh":"厚度","de":"Dicke","es":"Grosor"}, "v":"0.7 mm (food-safe)"},
-        {"k":{"en":"Print/Logo","zh":"印花/Logo","de":"Druck/Logo","es":"Impresion/Logo"}, "v":"Custom screen print, debossed logo"},
-        {"k":{"en":"Packaging","zh":"包装","de":"Verpackung","es":"Empaque"}, "v":"OPP bag + hangtag (Amazon-ready)"},
-        {"k":{"en":"Lead Time","zh":"交期","de":"Lieferzeit","es":"Plazo"}, "v":"15-25 days"},
-        {"k":{"en":"Certification","zh":"认证","de":"Zertifizierung","es":"Certificacion"}, "v":"FDA, LFGB, SGS"}
+      "id": "p1601255604666",
+      "name": {
+        "en": "Silicone Glass Fiber Food Grade Baking",
+        "zh": "硅胶 玻纤 食品级 烘焙",
+        "de": "Silikon Glasfaser Lebensmittelecht Back",
+        "es": "Silicona Fibra de Vidrio Grado Alimentario Horneado"
+      },
+      "sku": "XN-PROD-01",
+      "price": "USD 4.30-5.50",
+      "moq": "100 units",
+      "category": "other",
+      "images": [
+        "products/p01.png"
       ],
-      "detailImgs":[]
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Silicone-Glass-Fiber-Food-Grade-Baking_1601255604666.html"
     },
     {
-      "id":"mat-macaron-set",
-      "name":{"en":"Non-Stick Silicone Macaron Baking Mat Set","zh":"防粘硅胶马卡龙烘焙垫套装","de":"Antihaft-Silikon Macaron-Set","es":"Set de Tapete Macaron"},
-      "sku":"XN-MAT-201",
-      "price":"USD 1.25 - 1.58 / pc",
-      "moq":"100 pieces",
-      "category":"mat",
-      "images":["products/mat-macaron.jpg"],
-      "video":"",
-      "specs":[
-        {"k":{"en":"Pattern","zh":"图案","de":"Muster","es":"Patron"}, "v":"Pre-printed macaron rings (30/40/48 cavities)"},
-        {"k":{"en":"Material","zh":"材质","de":"Material","es":"Material"}, "v":"100% Food-Grade Silicone"},
-        {"k":{"en":"Heat Resistance","zh":"耐温","de":"Hitzebestandigkeit","es":"Resistencia"}, "v":"-40°C to 230°C"},
-        {"k":{"en":"Size","zh":"尺寸","de":"Grosse","es":"Tamano"}, "v":"30×40 cm standard"},
-        {"k":{"en":"Set Composition","zh":"套装组成","de":"Set","es":"Composicion"}, "v":"Mat + piping bag + 6 tips (custom)"},
-        {"k":{"en":"Lead Time","zh":"交期","de":"Lieferzeit","es":"Plazo"}, "v":"15-25 days"},
-        {"k":{"en":"Certification","zh":"认证","de":"Zertifizierung","es":"Certificacion"}, "v":"FDA, LFGB"}
+      "id": "p1600892600189",
+      "name": {
+        "en": "Fiberglass Bakeware Large Size Custom Macaron",
+        "zh": "玻纤 烘焙器具 大 Size 定制 马卡龙",
+        "de": "Glasfaser Backformen Gross Size Custom Macaron",
+        "es": "Fibra de Vidrio Utensilios de Horneado Grande Size Personalizado Macaron"
+      },
+      "sku": "XN-MAT-02",
+      "price": "USD 0.87-1",
+      "moq": "100 pieces",
+      "category": "mat",
+      "images": [
+        "products/p02.jpg"
       ],
-      "detailImgs":[]
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Fiberglass-Bakeware-Large-Size-Custom-Macaron_1600892600189.html"
     },
     {
-      "id":"mat-dough-anti-slip",
-      "name":{"en":"Anti-Slip Silicone Pastry Rolling Mat","zh":"防滑硅胶揉面擀面垫","de":"Rutschfeste Silikon-Teigmatte","es":"Tapete Antideslizante para Amasar"},
-      "sku":"XN-MAT-301",
-      "price":"USD 0.85 - 1.05 / pc",
-      "moq":"100 pieces",
-      "category":"mat",
-      "images":["products/mat-dough.jpg"],
-      "video":"",
-      "specs":[
-        {"k":{"en":"Function","zh":"功能","de":"Funktion","es":"Funcion"}, "v":"Anti-slip backing for dough kneading"},
-        {"k":{"en":"Surface","zh":"表面","de":"Oberflache","es":"Superficie"}, "v":"Non-stick, printed measurement guides"},
-        {"k":{"en":"Material","zh":"材质","de":"Material","es":"Material"}, "v":"Food-Grade Silicone + textured back"},
-        {"k":{"en":"Sizes","zh":"尺寸","de":"Grossen","es":"Tamanos"}, "v":"40×60 / 50×70 cm"},
-        {"k":{"en":"Lead Time","zh":"交期","de":"Lieferzeit","es":"Plazo"}, "v":"15-25 days"},
-        {"k":{"en":"Certification","zh":"认证","de":"Zertifizierung","es":"Certificacion"}, "v":"FDA, LFGB"}
+      "id": "p1600588795566",
+      "name": {
+        "en": "Wholesale Custom Rectangle Bevel Edges 40X30CM",
+        "zh": "批发 定制 长方 斜边 边缘 40X30CM",
+        "de": "Grosshandel Custom Rechteckig Abschragung Kanten 40X30CM",
+        "es": "Mayorista Personalizado Rectangulo Bisel Bordes 40X30CM"
+      },
+      "sku": "XN-PROD-03",
+      "price": "USD 1.20-1.40",
+      "moq": "100 pieces",
+      "category": "other",
+      "images": [
+        "products/p03.jpg"
       ],
-      "detailImgs":[]
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Wholesale-Custom-Rectangle-Bevel-Edges-40x30cm_1600588795566.html"
     },
     {
-      "id":"mat-perforated",
-      "name":{"en":"Perforated Fiberglass Silicone Oven Mat","zh":"打孔玻纤硅胶烤箱垫","de":"Perforierte Glasfaser-Silikon-Ofenmatte","es":"Tapete de Horno Perforado"},
-      "sku":"XN-MAT-401",
-      "price":"USD 1.38 - 1.72 / pc",
-      "moq":"100 pieces",
-      "category":"mat",
-      "images":["products/mat-perforated.jpg"],
-      "video":"",
-      "specs":[
-        {"k":{"en":"Structure","zh":"结构","de":"Struktur","es":"Estructura"}, "v":"Silicone-coated fiberglass mesh with perforations"},
-        {"k":{"en":"Best For","zh":"适用","de":"Geeignet fur","es":"Ideal para"}, "v":"Pizza, bread crust, dehydrated fruit"},
-        {"k":{"en":"Material","zh":"材质","de":"Material","es":"Material"}, "v":"Silicone + Fiberglass (food-safe)"},
-        {"k":{"en":"Heat Resistance","zh":"耐温","de":"Hitzebestandigkeit","es":"Resistencia"}, "v":"Up to 250°C"},
-        {"k":{"en":"Reusable","zh":"可重复使用","de":"Wiederverwendbar","es":"Reutilizable"}, "v":"3000+ cycles"},
-        {"k":{"en":"Certification","zh":"认证","de":"Zertifizierung","es":"Certificacion"}, "v":"FDA, LFGB"}
+      "id": "p1600862902805",
+      "name": {
+        "en": "Custom Silicone Food Grade Non Stick",
+        "zh": "定制 硅胶 食品级 防粘",
+        "de": "Custom Silikon Lebensmittelecht Antihaft",
+        "es": "Personalizado Silicona Grado Alimentario Antiadherente"
+      },
+      "sku": "XN-PROD-04",
+      "price": "USD 1.70-2.20",
+      "moq": "100 pieces",
+      "category": "other",
+      "images": [
+        "products/p04.jpg"
       ],
-      "detailImgs":[]
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Silicone-Food-Grade-Non-stick_1600862902805.html"
     },
     {
-      "id":"mat-dutch-oven",
-      "name":{"en":"Long-Handle Silicone Bread Sling / Dutch Oven Liner","zh":"长柄硅胶面包吊带 / 荷兰锅烤垫","de":"Langgriff Silikon Brot-Schlinge","es":"Eslinga de Pan con Asas Largas"},
-      "sku":"XN-MAT-501",
-      "price":"USD 1.15 - 1.40 / pc",
-      "moq":"100 pieces",
-      "category":"mat",
-      "images":["products/mat-dutch.jpg"],
-      "video":"",
-      "specs":[
-        {"k":{"en":"Use Case","zh":"用途","de":"Anwendung","es":"Uso"}, "v":"Lifting artisan bread out of Dutch oven safely"},
-        {"k":{"en":"Handle","zh":"手柄","de":"Griff","es":"Asa"}, "v":"Reinforced silicone, heat-resistant grip"},
-        {"k":{"en":"Material","zh":"材质","de":"Material","es":"Material"}, "v":"Food-Grade Silicone, 1.2mm"},
-        {"k":{"en":"Compatibility","zh":"兼容","de":"Kompatibel","es":"Compatibilidad"}, "v":"5-7 Qt Dutch ovens (Le Creuset, Lodge)"},
-        {"k":{"en":"Lead Time","zh":"交期","de":"Lieferzeit","es":"Plazo"}, "v":"15-25 days"},
-        {"k":{"en":"Certification","zh":"认证","de":"Zertifizierung","es":"Certificacion"}, "v":"FDA, LFGB"}
+      "id": "p1601255489999",
+      "name": {
+        "en": "Silicone Glass Fiber Baking Tray Soft",
+        "zh": "硅胶 玻纤 烘焙 托盘 柔软",
+        "de": "Silikon Glasfaser Back Blech Weich",
+        "es": "Silicona Fibra de Vidrio Horneado Bandeja Suave"
+      },
+      "sku": "XN-PROD-05",
+      "price": "USD 4.30-5.50",
+      "moq": "100 units",
+      "category": "other",
+      "images": [
+        "products/p05.jpg"
       ],
-      "detailImgs":[]
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Silicone-Glass-Fiber-Baking-Tray-Soft_1601255489999.html"
     },
     {
-      "id":"mold-oblong",
-      "name":{"en":"Custom Oblong / Round Silicone Bread Mold","zh":"定制长方/圆形硅胶面包模","de":"Custom Langlich/Rund Brotform","es":"Molde de Pan Personalizado Alargado/Redondo"},
-      "sku":"XN-MOLD-101",
-      "price":"USD 5 - 6 / pc",
-      "moq":"100 pieces",
-      "category":"mold",
-      "images":["products/mold-oblong.png"],
-      "video":"",
-      "specs":[
-        {"k":{"en":"Shapes","zh":"形状","de":"Formen","es":"Formas"}, "v":"Oblong loaf / round boule (custom dim. OK)"},
-        {"k":{"en":"Capacity","zh":"容量","de":"Volumen","es":"Capacidad"}, "v":"500g - 1500g dough"},
-        {"k":{"en":"Material","zh":"材质","de":"Material","es":"Material"}, "v":"100% Platinum-Cured Silicone"},
-        {"k":{"en":"Reusable","zh":"可重复使用","de":"Wiederverwendbar","es":"Reutilizable"}, "v":"3000+ cycles"},
-        {"k":{"en":"Cleaning","zh":"清洗","de":"Reinigung","es":"Limpieza"}, "v":"Dishwasher safe"},
-        {"k":{"en":"Custom","zh":"定制","de":"Custom","es":"Personalizable"}, "v":"Logo deboss, color matching available"},
-        {"k":{"en":"Certification","zh":"认证","de":"Zertifizierung","es":"Certificacion"}, "v":"FDA, LFGB, SGS"}
+      "id": "p1601003537293",
+      "name": {
+        "en": "Custom Toast Bread Form Mould Silicone",
+        "zh": "定制 吐司 面包 模具 模具 硅胶",
+        "de": "Custom Toast Brot Form Form Silikon",
+        "es": "Personalizado Tostada Bandeja Forma Molde Silicona"
+      },
+      "sku": "XN-MOLD-06",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p06.jpg"
       ],
-      "detailImgs":[]
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Toast-Bread-Form-Mould-Silicone_1601003537293.html"
     },
     {
-      "id":"mold-12loaf-mesh",
-      "name":{"en":"12-Loaf Fiberglass Mesh Bread Form","zh":"12 联玻纤网孔面包模","de":"12-Brot Glasfaser-Gitter-Form","es":"Bandeja Malla 12 Panes"},
-      "sku":"XN-MOLD-201",
-      "price":"USD 10 - 11.50 / pc",
-      "moq":"50 pieces",
-      "category":"mold",
-      "images":["products/mold-12loaf.jpg"],
-      "video":"",
-      "specs":[
-        {"k":{"en":"Cavities","zh":"联数","de":"Mulden","es":"Cavidades"}, "v":"12 individual loaf cavities"},
-        {"k":{"en":"Tray Size","zh":"烤盘尺寸","de":"Backblech-Grosse","es":"Tamano"}, "v":"40 × 60 cm (commercial bakery standard)"},
-        {"k":{"en":"Structure","zh":"结构","de":"Struktur","es":"Estructura"}, "v":"Silicone-coated fiberglass mesh, perforated"},
-        {"k":{"en":"Use","zh":"用途","de":"Anwendung","es":"Uso"}, "v":"Cake, muffin, hot dog bun, mini loaf"},
-        {"k":{"en":"Reusable","zh":"可重复使用","de":"Wiederverwendbar","es":"Reutilizable"}, "v":"3000+ cycles, dishwasher safe"},
-        {"k":{"en":"Certification","zh":"认证","de":"Zertifizierung","es":"Certificacion"}, "v":"FDA, LFGB"}
+      "id": "p1601003525365",
+      "name": {
+        "en": "Custom High Quality Baguette Hot Dog",
+        "zh": "定制 高品质 法棍 热狗",
+        "de": "Custom Hochwertig Baguette Hotdog",
+        "es": "Personalizado Alta Calidad Baguette Hotdog"
+      },
+      "sku": "XN-MOLD-07",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p07.jpg"
       ],
-      "detailImgs":[]
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-High-Quality-Baguette-Hot-Dog_1601003525365.html"
     },
     {
-      "id":"mold-baguette-5",
-      "name":{"en":"5-Loaf Baguette / Hotdog Mesh Mold","zh":"5 联法棍 / 热狗网孔模","de":"5-Brot Baguette / Hotdog-Form","es":"Molde Malla 5 Baguettes / Hotdog"},
-      "sku":"XN-MOLD-301",
-      "price":"USD 5.80 - 6.80 / pc",
-      "moq":"100 pieces",
-      "category":"mold",
-      "images":["products/mold-baguette.jpg"],
-      "video":"",
-      "specs":[
-        {"k":{"en":"Cavities","zh":"联数","de":"Mulden","es":"Cavidades"}, "v":"5 baguette channels"},
-        {"k":{"en":"Channel Size","zh":"槽尺寸","de":"Kanalgrosse","es":"Tamano Canal"}, "v":"3 × 8 inch (standard baguette)"},
-        {"k":{"en":"Material","zh":"材质","de":"Material","es":"Material"}, "v":"Silicone-coated fiberglass mesh"},
-        {"k":{"en":"Best For","zh":"适用","de":"Geeignet fur","es":"Ideal para"}, "v":"Crusty baguettes, hot dog buns, sub rolls"},
-        {"k":{"en":"Reusable","zh":"可重复使用","de":"Wiederverwendbar","es":"Reutilizable"}, "v":"3000+ cycles"},
-        {"k":{"en":"Certification","zh":"认证","de":"Zertifizierung","es":"Certificacion"}, "v":"FDA, LFGB"}
+      "id": "p1601003436930",
+      "name": {
+        "en": "Professional Factory Silicone French Bread Baking",
+        "zh": "专业 工厂 硅胶 法式 面包 烘焙",
+        "de": "Professionell Fabrik Silikon Franzosisch Brot Back",
+        "es": "Profesional Fabrica Silicona Frances Bandeja Horneado"
+      },
+      "sku": "XN-MOLD-08",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p08.jpg"
       ],
-      "detailImgs":[]
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Professional-Factory-Silicone-French-Bread-Baking_1601003436930.html"
+    },
+    {
+      "id": "p1601003595050",
+      "name": {
+        "en": "Non Stick Silicone Baguette Bread Form",
+        "zh": "防粘 硅胶 法棍 面包 模具",
+        "de": "Antihaft Silikon Baguette Brot Form",
+        "es": "Antiadherente Silicona Baguette Bandeja Forma"
+      },
+      "sku": "XN-MOLD-09",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p09.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Non-Stick-Silicone-Baguette-Bread-Form_1601003595050.html"
+    },
+    {
+      "id": "p1601003565184",
+      "name": {
+        "en": "Hot Sale Silicone French Baguette Bread",
+        "zh": "热销 硅胶 法式 法棍 面包",
+        "de": "Im Angebot Silikon Franzosisch Baguette Brot",
+        "es": "En Oferta Silicona Frances Baguette Bandeja"
+      },
+      "sku": "XN-MOLD-10",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p10.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Hot-Sale-Silicone-French-Baguette-Bread_1601003565184.html"
+    },
+    {
+      "id": "p1601003520336",
+      "name": {
+        "en": "Easy To Clean Baguette Bread Form",
+        "zh": "易清洁 法棍 面包 模具",
+        "de": "Leicht zu reinigen Baguette Brot Form",
+        "es": "Facil de Limpiar Baguette Bandeja Forma"
+      },
+      "sku": "XN-MOLD-11",
+      "price": "USD 4.30-5.15",
+      "moq": "1000 pieces",
+      "category": "mold",
+      "images": [
+        "products/p11.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Easy-to-Clean-Baguette-Bread-Form_1601003520336.html"
+    },
+    {
+      "id": "p1601003588057",
+      "name": {
+        "en": "High Quality Silicone French Bread Baking",
+        "zh": "高品质 硅胶 法式 面包 烘焙",
+        "de": "Hochwertig Silikon Franzosisch Brot Back",
+        "es": "Alta Calidad Silicona Frances Bandeja Horneado"
+      },
+      "sku": "XN-MOLD-12",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p12.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/High-Quality-Silicone-French-Bread-Baking_1601003588057.html"
+    },
+    {
+      "id": "p1601003556243",
+      "name": {
+        "en": "Custom Silicone Loaf Baguette French Bread",
+        "zh": "定制 硅胶 吐司模 法棍 法式 面包",
+        "de": "Custom Silikon Brotlaib Baguette Franzosisch Brot",
+        "es": "Personalizado Silicona Hogaza Baguette Frances Bandeja"
+      },
+      "sku": "XN-MOLD-13",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p13.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Silicone-Loaf-Baguette-French-Bread_1601003556243.html"
+    },
+    {
+      "id": "p1601003592071",
+      "name": {
+        "en": "Perforated Food Safe Silicone Hot Dog",
+        "zh": "打孔 食品安全 硅胶 热狗",
+        "de": "Perforiert Lebensmittelsicher Silikon Hotdog",
+        "es": "Perforado Seguro Alimentos Silicona Hotdog"
+      },
+      "sku": "XN-MOLD-14",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p14.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Perforated-Food-Safe-Silicone-Hot-Dog_1601003592071.html"
+    },
+    {
+      "id": "p1601003500489",
+      "name": {
+        "en": "Rectangular Perforated Silicone Bread Mold French",
+        "zh": "长方形 打孔 硅胶 面包 模具 法式",
+        "de": "Rechteckig Perforiert Silikon Brot Form Franzosisch",
+        "es": "Rectangular Perforado Silicona Bandeja Molde Frances"
+      },
+      "sku": "XN-MOLD-15",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p15.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Rectangular-Perforated-Silicone-Bread-Mold-French_1601003500489.html"
+    },
+    {
+      "id": "p1601003557235",
+      "name": {
+        "en": "Food Safe Silicone Loaf Baguette Bread",
+        "zh": "食品安全 硅胶 吐司模 法棍 面包",
+        "de": "Lebensmittelsicher Silikon Brotlaib Baguette Brot",
+        "es": "Seguro Alimentos Silicona Hogaza Baguette Bandeja"
+      },
+      "sku": "XN-MOLD-16",
+      "price": "USD 4.30-5.15",
+      "moq": "1000 pieces",
+      "category": "mold",
+      "images": [
+        "products/p16.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Food-Safe-Silicone-Loaf-Baguette-Bread_1601003557235.html"
+    },
+    {
+      "id": "p1601003575182",
+      "name": {
+        "en": "Reusable Toast Bread Form Mould Silicone",
+        "zh": "可重复使用 吐司 面包 模具 模具 硅胶",
+        "de": "Wiederverwendbar Toast Brot Form Form Silikon",
+        "es": "Reutilizable Tostada Bandeja Forma Molde Silicona"
+      },
+      "sku": "XN-MOLD-17",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p17.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Reusable-Toast-Bread-Form-Mould-Silicone_1601003575182.html"
+    },
+    {
+      "id": "p1601003340389",
+      "name": {
+        "en": "Custom Logo Silicone Baguette French Bread",
+        "zh": "定制 Logo 硅胶 法棍 法式 面包",
+        "de": "Custom Logo Silikon Baguette Franzosisch Brot",
+        "es": "Personalizado Logo Silicona Baguette Frances Bandeja"
+      },
+      "sku": "XN-MOLD-18",
+      "price": "USD 4.30-5.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p18.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Custom-Logo-Silicone-Baguette-French-Bread_1601003340389.html"
+    },
+    {
+      "id": "p1601003347310",
+      "name": {
+        "en": "Silicone Bread Mold Buger Bun Form",
+        "zh": "硅胶 面包 模具 Buger 小餐包 模具",
+        "de": "Silikon Brot Form Buger Brotchen Form",
+        "es": "Silicona Bandeja Molde Buger Bollo Forma"
+      },
+      "sku": "XN-MOLD-19",
+      "price": "USD 4-5.40",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p19.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Silicone-Bread-Mold-Buger-Bun-Form_1601003347310.html"
+    },
+    {
+      "id": "p1601003364186",
+      "name": {
+        "en": "Round Silicone Burger Bun Bread Baking",
+        "zh": "圆形 硅胶 汉堡 小餐包 面包 烘焙",
+        "de": "Rund Silikon Burger Brotchen Brot Back",
+        "es": "Redondo Silicona Hamburguesa Bollo Bandeja Horneado"
+      },
+      "sku": "XN-MOLD-20",
+      "price": "USD 4-5.40",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p20.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Round-Silicone-Burger-Bun-Bread-Baking_1601003364186.html"
+    },
+    {
+      "id": "p1601002951011",
+      "name": {
+        "en": "Perforated Custom Silicone Burger Round Bread",
+        "zh": "打孔 定制 硅胶 汉堡 圆形 面包",
+        "de": "Perforiert Custom Silikon Burger Rund Brot",
+        "es": "Perforado Personalizado Silicona Hamburguesa Redondo Bandeja"
+      },
+      "sku": "XN-MOLD-21",
+      "price": "USD 4-5.40",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p21.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Perforated-Custom-Silicone-Burger-Round-Bread_1601002951011.html"
+    },
+    {
+      "id": "p1600973971112",
+      "name": {
+        "en": "Fiberglass Perforated Baguette Loaf Bread Forms",
+        "zh": "玻纤 打孔 法棍 吐司模 面包 模具",
+        "de": "Glasfaser Perforiert Baguette Brotlaib Brot Formen",
+        "es": "Fibra de Vidrio Perforado Baguette Hogaza Bandeja Formas"
+      },
+      "sku": "XN-MOLD-22",
+      "price": "USD 4-6",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p22.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Fiberglass-Perforated-Baguette-Loaf-Bread-Forms_1600973971112.html"
+    },
+    {
+      "id": "p1600968187027",
+      "name": {
+        "en": "Bun Pan Silicone Mould 20 Cavity",
+        "zh": "餐包烤盘 硅胶 模具 20 模穴",
+        "de": "Brotchen-Pfanne Silikon Form 20 Mulde",
+        "es": "Bandeja Bollos Silicona Molde 20 Cavidad"
+      },
+      "sku": "XN-MOLD-23",
+      "price": "USD 5.30-6.30",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p23.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Bun-Pan-Silicone-Mould-20-Cavity_1600968187027.html"
+    },
+    {
+      "id": "p1600959659073",
+      "name": {
+        "en": "Perforated Reusable Bakery Mold Hot Dog",
+        "zh": "打孔 可重复使用 烘焙坊 模具 热狗",
+        "de": "Perforiert Wiederverwendbar Backerei Form Hotdog",
+        "es": "Perforado Reutilizable Panaderia Molde Hotdog"
+      },
+      "sku": "XN-MOLD-24",
+      "price": "USD 10-11",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p24.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Perforated-Reusable-Bakery-Mold-Hot-Dog_1600959659073.html"
+    },
+    {
+      "id": "p1600955332931",
+      "name": {
+        "en": "15 Cavities Silicone Bread Mold Non",
+        "zh": "15 模穴 硅胶 面包 模具 Non",
+        "de": "15 Mulden Silikon Brot Form Non",
+        "es": "15 Cavidades Silicona Bandeja Molde Non"
+      },
+      "sku": "XN-MOLD-25",
+      "price": "USD 10.50-11.50",
+      "moq": "50 pieces",
+      "category": "mold",
+      "images": [
+        "products/p25.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/15-Cavities-Silicone-Bread-Mold-Non_1600955332931.html"
+    },
+    {
+      "id": "p1600945274027",
+      "name": {
+        "en": "Silicone Fiberglass 12 Loaf 40X60 Mesh",
+        "zh": "硅胶 玻纤 12 吐司模 40X60 网孔",
+        "de": "Silikon Glasfaser 12 Brotlaib 40X60 Gitter",
+        "es": "Silicona Fibra de Vidrio 12 Hogaza 40X60 Malla"
+      },
+      "sku": "XN-MOLD-26",
+      "price": "USD 10-11",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p26.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Silicone-Fiberglass-12-Loaf-40x60-Mesh_1600945274027.html"
+    },
+    {
+      "id": "p1600939243048",
+      "name": {
+        "en": "5 Loaf Hot Dog Bun Baguette",
+        "zh": "5 吐司模 热狗 小餐包 法棍",
+        "de": "5 Brotlaib Hotdog Brotchen Baguette",
+        "es": "5 Hogaza Hotdog Bollo Baguette"
+      },
+      "sku": "XN-MOLD-27",
+      "price": "USD 5.80-6.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p27.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/5-Loaf-Hot-Dog-Bun-Baguette_1600939243048.html"
+    },
+    {
+      "id": "p1600938620450",
+      "name": {
+        "en": "Non Stick Reusable Baking Form Perforated",
+        "zh": "防粘 可重复使用 烘焙 模具 打孔",
+        "de": "Antihaft Wiederverwendbar Back Form Perforiert",
+        "es": "Antiadherente Reutilizable Horneado Forma Perforado"
+      },
+      "sku": "XN-MOLD-28",
+      "price": "USD 10-11",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p28.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Non-Stick-Reusable-Baking-Form-Perforated_1600938620450.html"
+    },
+    {
+      "id": "p1600933018316",
+      "name": {
+        "en": "12LOAF Silicone Baguette Mould Hot Dog",
+        "zh": "12LOAF 硅胶 法棍 模具 热狗",
+        "de": "12LOAF Silikon Baguette Form Hotdog",
+        "es": "12LOAF Silicona Baguette Molde Hotdog"
+      },
+      "sku": "XN-MOLD-29",
+      "price": "USD 4-5",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p29.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/12Loaf-Silicone-Baguette-Mould-Hot-Dog_1600933018316.html"
+    },
+    {
+      "id": "p1600933042186",
+      "name": {
+        "en": "8 Cavity Silicone Hamburger Bun Pan",
+        "zh": "8 模穴 硅胶 汉堡 餐包烤盘",
+        "de": "8 Mulde Silikon Hamburger Brotchen-Pfanne",
+        "es": "8 Cavidad Silicona Hamburguesa Bandeja Bollos"
+      },
+      "sku": "XN-MOLD-30",
+      "price": "USD 4-6",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p30.png"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/8-Cavity-Silicone-Hamburger-Bun-Pan_1600933042186.html"
+    },
+    {
+      "id": "p1600932732991",
+      "name": {
+        "en": "5 Reusable Non Stick Silicone Bread",
+        "zh": "5 可重复使用 防粘 硅胶 面包",
+        "de": "5 Wiederverwendbar Antihaft Silikon Brot",
+        "es": "5 Reutilizable Antiadherente Silicona Bandeja"
+      },
+      "sku": "XN-MOLD-31",
+      "price": "USD 5.50-6.30",
+      "moq": "300 pieces",
+      "category": "mold",
+      "images": [
+        "products/p31.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/5-Reusable-Non-Stick-Silicone-Bread_1600932732991.html"
+    },
+    {
+      "id": "p1600933172005",
+      "name": {
+        "en": "8 Cavity Perforated Silicone Bread Mould",
+        "zh": "8 模穴 打孔 硅胶 面包 模具",
+        "de": "8 Mulde Perforiert Silikon Brot Form",
+        "es": "8 Cavidad Perforado Silicona Bandeja Molde"
+      },
+      "sku": "XN-MOLD-32",
+      "price": "USD 4-6",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p32.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/8-Cavity-Perforated-Silicone-Bread-Mould_1600933172005.html"
+    },
+    {
+      "id": "p1600930547320",
+      "name": {
+        "en": "Mini Silicone Baguette Mould 12LOAF Hot",
+        "zh": "迷你 硅胶 法棍 模具 12LOAF 热",
+        "de": "Mini Silikon Baguette Form 12LOAF Heiss",
+        "es": "Mini Silicona Baguette Molde 12LOAF Caliente"
+      },
+      "sku": "XN-MOLD-33",
+      "price": "USD 4-5",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p33.png"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Mini-Silicone-Baguette-Mould-12Loaf-Hot_1600930547320.html"
+    },
+    {
+      "id": "p1600930445542",
+      "name": {
+        "en": "Silicone Baking Tray Liners French Baguette",
+        "zh": "硅胶 烘焙 托盘 Liners 法式 法棍",
+        "de": "Silikon Back Blech Liners Franzosisch Baguette",
+        "es": "Silicona Horneado Bandeja Liners Frances Baguette"
+      },
+      "sku": "XN-MAT-34",
+      "price": "USD 4-4.50",
+      "moq": "300 pieces",
+      "category": "mat",
+      "images": [
+        "products/p34.png"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Silicone-Baking-Tray-Liners-French-Baguette_1600930445542.html"
+    },
+    {
+      "id": "p1600930575259",
+      "name": {
+        "en": "8 Cavity Perforated Silicone Hamburger Bun",
+        "zh": "8 模穴 打孔 硅胶 汉堡 小餐包",
+        "de": "8 Mulde Perforiert Silikon Hamburger Brotchen",
+        "es": "8 Cavidad Perforado Silicona Hamburguesa Bollo"
+      },
+      "sku": "XN-MOLD-35",
+      "price": "USD 4-6",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p35.png"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/8-Cavity-Perforated-Silicone-Hamburger-Bun_1600930575259.html"
+    },
+    {
+      "id": "p1600930419576",
+      "name": {
+        "en": "12LOAF Hot Dog Mini Mesh Silicone",
+        "zh": "12LOAF 热狗 迷你 网孔 硅胶",
+        "de": "12LOAF Hotdog Mini Gitter Silikon",
+        "es": "12LOAF Hotdog Mini Malla Silicona"
+      },
+      "sku": "XN-MOLD-36",
+      "price": "USD 4-5",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p36.png"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/12Loaf-Hot-Dog-Mini-Mesh-Silicone_1600930419576.html"
+    },
+    {
+      "id": "p1600930511275",
+      "name": {
+        "en": "Bun Pan Silicone Mould 20 Cavity",
+        "zh": "餐包烤盘 硅胶 模具 20 模穴",
+        "de": "Brotchen-Pfanne Silikon Form 20 Mulde",
+        "es": "Bandeja Bollos Silicona Molde 20 Cavidad"
+      },
+      "sku": "XN-MOLD-37",
+      "price": "USD 5.30-5.50",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p37.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Bun-Pan-Silicone-Mould-20-Cavity_1600930511275.html"
+    },
+    {
+      "id": "p1600930540139",
+      "name": {
+        "en": "Baguette Tray 5 Loaf Silicone Bread",
+        "zh": "法棍 托盘 5 吐司模 硅胶 面包",
+        "de": "Baguette Blech 5 Brotlaib Silikon Brot",
+        "es": "Baguette Bandeja 5 Hogaza Silicona Bandeja"
+      },
+      "sku": "XN-MOLD-38",
+      "price": "USD 5.80-6.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p38.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Baguette-Tray-5-Loaf-Silicone-Bread_1600930540139.html"
+    },
+    {
+      "id": "p1600929838919",
+      "name": {
+        "en": "Mesh Silicone Hamburger Bun Pan 8",
+        "zh": "网孔 硅胶 汉堡 餐包烤盘 8",
+        "de": "Gitter Silikon Hamburger Brotchen-Pfanne 8",
+        "es": "Malla Silicona Hamburguesa Bandeja Bollos 8"
+      },
+      "sku": "XN-MOLD-39",
+      "price": "USD 5-6",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p39.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Mesh-Silicone-Hamburger-Bun-Pan-8_1600929838919.html"
+    },
+    {
+      "id": "p1600924981901",
+      "name": {
+        "en": "Hamburger Silicon For Burgers Bread Baking",
+        "zh": "汉堡 Silicon 用于 Burgers 面包 烘焙",
+        "de": "Hamburger Silicon fur Burgers Brot Back",
+        "es": "Hamburguesa Silicon para Burgers Bandeja Horneado"
+      },
+      "sku": "XN-MOLD-40",
+      "price": "USD 5-6",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p40.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Hamburger-Silicon-for-Burgers-Bread-Baking_1600924981901.html"
+    },
+    {
+      "id": "p1600917022616",
+      "name": {
+        "en": "Factory Customized Non Stick Brownie Cake",
+        "zh": "工厂 定制 防粘 布朗尼 蛋糕",
+        "de": "Fabrik Custom Antihaft Brownie Kuchen",
+        "es": "Fabrica Personalizado Antiadherente Brownie Pastel"
+      },
+      "sku": "XN-MOLD-41",
+      "price": "USD 8-10",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p41.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Factory-Customized-Non-Stick-Brownie-Cake_1600917022616.html"
+    },
+    {
+      "id": "p1600586133442",
+      "name": {
+        "en": "Professional Factory Made Food Grade Rectangle",
+        "zh": "专业 工厂 制造 食品级 长方",
+        "de": "Professionell Fabrik Hergestellt Lebensmittelecht Rechteckig",
+        "es": "Profesional Fabrica Hecho Grado Alimentario Rectangulo"
+      },
+      "sku": "XN-PROD-42",
+      "price": "USD 10-11",
+      "moq": "100 pieces",
+      "category": "other",
+      "images": [
+        "products/p42.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Professional-Factory-Made-Food-Grade-Rectangle_1600586133442.html"
+    },
+    {
+      "id": "p1600586533385",
+      "name": {
+        "en": "Customized 5 Loaf Non Stick Bread",
+        "zh": "定制 5 吐司模 防粘 面包",
+        "de": "Custom 5 Brotlaib Antihaft Brot",
+        "es": "Personalizado 5 Hogaza Antiadherente Bandeja"
+      },
+      "sku": "XN-MOLD-43",
+      "price": "USD 5.80-6.80",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p43.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Customized-5-Loaf-Non-Stick-Bread_1600586533385.html"
+    },
+    {
+      "id": "p1600586981310",
+      "name": {
+        "en": "Hot Sale French Bread Silicone Molds",
+        "zh": "热销 法式 面包 硅胶 Molds",
+        "de": "Im Angebot Franzosisch Brot Silikon Molds",
+        "es": "En Oferta Frances Bandeja Silicona Molds"
+      },
+      "sku": "XN-MOLD-44",
+      "price": "USD 10-11",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p44.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Hot-Sale-French-Bread-Silicone-Molds_1600586981310.html"
+    },
+    {
+      "id": "p1600587160074",
+      "name": {
+        "en": "Factory Made Cheap 6 Cup Cavity",
+        "zh": "工厂 制造 实惠 6 杯 模穴",
+        "de": "Fabrik Hergestellt Gunstig 6 Becher Mulde",
+        "es": "Fabrica Hecho Economico 6 Taza Cavidad"
+      },
+      "sku": "XN-MOLD-45",
+      "price": "USD 3.30-4.30",
+      "moq": "100 pieces",
+      "category": "other",
+      "images": [
+        "products/p45.png"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Factory-Made-Cheap-6-Cup-Cavity_1600587160074.html"
+    },
+    {
+      "id": "p1600587009894",
+      "name": {
+        "en": "Customized Pan Non Stick Baking Pastry",
+        "zh": "定制 烤盘 防粘 烘焙 糕点",
+        "de": "Custom Pfanne Antihaft Back Geback",
+        "es": "Personalizado Bandeja Antiadherente Horneado Reposteria"
+      },
+      "sku": "XN-MAT-46",
+      "price": "USD 3.30-4.20",
+      "moq": "100 pieces",
+      "category": "mat",
+      "images": [
+        "products/p46.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Customized-Pan-Non-Stick-Baking-Pastry_1600587009894.html"
+    },
+    {
+      "id": "p1600587126086",
+      "name": {
+        "en": "Wholesale Silicone Baby Sandwich Baking Molds",
+        "zh": "批发 硅胶 Baby 三明治 烘焙 Molds",
+        "de": "Grosshandel Silikon Baby Sandwich Back Molds",
+        "es": "Mayorista Silicona Baby Sandwich Horneado Molds"
+      },
+      "sku": "XN-MOLD-47",
+      "price": "USD 10-11",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p47.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Wholesale-Silicone-Baby-Sandwich-Baking-Molds_1600587126086.html"
+    },
+    {
+      "id": "p1600576061618",
+      "name": {
+        "en": "12 Loaf 40X60 Mesh Bread Forms",
+        "zh": "12 吐司模 40X60 网孔 面包 模具",
+        "de": "12 Brotlaib 40X60 Gitter Brot Formen",
+        "es": "12 Hogaza 40X60 Malla Bandeja Formas"
+      },
+      "sku": "XN-MOLD-48",
+      "price": "USD 10-11.50",
+      "moq": "50 pieces",
+      "category": "mold",
+      "images": [
+        "products/p48.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/12-Loaf-40x60-Mesh-Bread-Forms_1600576061618.html"
+    },
+    {
+      "id": "p1600592824094",
+      "name": {
+        "en": "Hot Selling Product Silicone Bakery Moulds",
+        "zh": "热 Selling Product 硅胶 烘焙坊 Moulds",
+        "de": "Heiss Selling Product Silikon Backerei Moulds",
+        "es": "Caliente Selling Product Silicona Panaderia Moulds"
+      },
+      "sku": "XN-MOLD-49",
+      "price": "USD 10-11",
+      "moq": "100 pieces",
+      "category": "mold",
+      "images": [
+        "products/p49.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Hot-Selling-Product-Silicone-Bakery-Moulds_1600592824094.html"
+    },
+    {
+      "id": "p1600934284200",
+      "name": {
+        "en": "Pastry Fiberglass Heat Resistant Baking Pastry",
+        "zh": "糕点 玻纤 耐高温 烘焙 糕点",
+        "de": "Geback Glasfaser Hitzebestandig Back Geback",
+        "es": "Reposteria Fibra de Vidrio Termorresistente Horneado Reposteria"
+      },
+      "sku": "XN-MAT-50",
+      "price": "USD 0.70",
+      "moq": "100 pieces",
+      "category": "mat",
+      "images": [
+        "products/p50.jpg"
+      ],
+      "video": "",
+      "specs": [
+        {
+          "k": {
+            "en": "Material",
+            "zh": "材质",
+            "de": "Material",
+            "es": "Material"
+          },
+          "v": "Food-Grade Silicone (+ Fiberglass)"
+        },
+        {
+          "k": {
+            "en": "Certification",
+            "zh": "认证",
+            "de": "Zertifizierung",
+            "es": "Certificacion"
+          },
+          "v": "FDA, LFGB, SGS"
+        },
+        {
+          "k": {
+            "en": "Heat Resistance",
+            "zh": "耐温",
+            "de": "Hitzebestandigkeit",
+            "es": "Resistencia"
+          },
+          "v": "-40°C to 230°C"
+        },
+        {
+          "k": {
+            "en": "Reusable",
+            "zh": "可重复使用",
+            "de": "Wiederverwendbar",
+            "es": "Reutilizable"
+          },
+          "v": "3000+ cycles"
+        },
+        {
+          "k": {
+            "en": "Custom Logo",
+            "zh": "自有 Logo",
+            "de": "Custom Logo",
+            "es": "Logo Personalizado"
+          },
+          "v": "Available (deboss / print)"
+        },
+        {
+          "k": {
+            "en": "Custom Color",
+            "zh": "定制颜色",
+            "de": "Custom Farbe",
+            "es": "Color Personalizado"
+          },
+          "v": "Pantone matching"
+        },
+        {
+          "k": {
+            "en": "Lead Time",
+            "zh": "交期",
+            "de": "Lieferzeit",
+            "es": "Plazo"
+          },
+          "v": "15-25 days (mold: 25-35 days)"
+        },
+        {
+          "k": {
+            "en": "Packaging",
+            "zh": "包装",
+            "de": "Verpackung",
+            "es": "Empaque"
+          },
+          "v": "OPP bag + hangtag (Amazon-ready)"
+        }
+      ],
+      "detailImgs": [],
+      "source_url": "https://www.alibaba.com/product-detail/Pastry-Fiberglass-Heat-Resistant-Baking-Pastry_1600934284200.html"
     }
   ],
   "staff_intel": [
-    {"cat":"客户画像", "t":"北美亚马逊卖家", "c":"通常先订 100-300 件试销，重看 ASIN 表现；要求 FNSKU 贴码、OPP 透明袋、A4 纸卡。复购周期 45-60 天"},
-    {"cat":"客户画像", "t":"西欧零售商 (德/法/UK)", "c":"重视 LFGB 与 EN 71-3 报告；偏好哑光配色（Pantone Cool Gray / Sage）；MOQ 容易拉到 500-1000；账期 60 天"},
-    {"cat":"客户画像", "t":"南欧买家 (西/意)", "c":"价格敏感 + 喜欢明亮色（红橙黄）；通常通过西语/意语沟通；MOQ 100-300 件试单为主"},
-    {"cat":"客户画像", "t":"超市自有品牌 (private label)", "c":"对一致性极敏感，每批 SGS 必须随单；包装设计他们出，我们只负责印；账期 90 天但量大稳定"},
-    {"cat":"产品知识", "t":"硅胶 vs 玻纤复合的区别", "c":"纯硅胶柔软可弯曲、适合烘焙垫；玻纤复合更挺括、可以做塑形面包模；玻纤款不能整体折叠，运输要平铺"},
-    {"cat":"竞品情报", "t":"主要竞争对手", "c":"宁波某厂、东莞某硅胶厂、青岛某进出口；价格相近，XN 优势在 R&D 团队 20 年经验和低 MOQ 政策"}
+    {
+      "cat": "客户画像",
+      "t": "北美亚马逊卖家",
+      "c": "通常先订 100-300 件试销，重看 ASIN 表现；要求 FNSKU 贴码、OPP 透明袋、A4 纸卡。复购周期 45-60 天"
+    },
+    {
+      "cat": "客户画像",
+      "t": "西欧零售商 (德/法/UK)",
+      "c": "重视 LFGB 与 EN 71-3 报告；偏好哑光配色（Pantone Cool Gray / Sage）；MOQ 容易拉到 500-1000；账期 60 天"
+    },
+    {
+      "cat": "客户画像",
+      "t": "南欧买家 (西/意)",
+      "c": "价格敏感 + 喜欢明亮色（红橙黄）；通常通过西语/意语沟通；MOQ 100-300 件试单为主"
+    },
+    {
+      "cat": "客户画像",
+      "t": "超市自有品牌 (private label)",
+      "c": "对一致性极敏感，每批 SGS 必须随单；包装设计他们出，我们只负责印；账期 90 天但量大稳定"
+    },
+    {
+      "cat": "产品知识",
+      "t": "硅胶 vs 玻纤复合的区别",
+      "c": "纯硅胶柔软可弯曲、适合烘焙垫；玻纤复合更挺括、可以做塑形面包模；玻纤款不能整体折叠，运输要平铺"
+    },
+    {
+      "cat": "竞品情报",
+      "t": "主要竞争对手",
+      "c": "宁波某厂、东莞某硅胶厂、青岛某进出口；价格相近，XN 优势在 R&D 团队 20 年经验和低 MOQ 政策"
+    }
   ],
   "staff_sop": [
-    {"cat":"询盘回复", "t":"首次询盘标准回复 (24h)", "c":"1) 感谢询盘 2) 确认产品款式与目标数量 3) 询问目的国（影响认证选择 FDA/LFGB/RoHS）4) 询问是否需要自有 Logo/包装 5) 附产品视频 + FDA/LFGB 证书 6) 48h 内出报价含 FOB Shanghai 价"},
-    {"cat":"询盘回复", "t":"亚马逊卖家询盘话术", "c":"主动确认：①是否需要 FNSKU 贴码 ②是否需要 OPP 透明袋单独包装 ③单件还是组合套装 ④是否需要纸卡或吊牌设计；提供 Amazon-ready 一站式报价"},
-    {"cat":"开模流程", "t":"OEM 开模 SOP", "c":"D+0 收到客户 3D 文件 → D+2 出模具 DFM 评审 → D+3 报开模费 → D+10 钢模完工 → D+13 试模出 3 件样品 → D+15 客户确认 → 进入量产排期"},
-    {"cat":"售后", "t":"质量异议处理 SOP", "c":"客户提供实物照片 + 批次号 → 24h 内技术组诊断 → 确认责任后 48h 内给方案：①补发免费替代 ②下单返点 5-10% ③退款（极端情况）；同步走 Alibaba 贸易保障流程"}
+    {
+      "cat": "询盘回复",
+      "t": "首次询盘标准回复 (24h)",
+      "c": "1) 感谢询盘 2) 确认产品款式与目标数量 3) 询问目的国（影响认证选择 FDA/LFGB/RoHS）4) 询问是否需要自有 Logo/包装 5) 附产品视频 + FDA/LFGB 证书 6) 48h 内出报价含 FOB Shanghai 价"
+    },
+    {
+      "cat": "询盘回复",
+      "t": "亚马逊卖家询盘话术",
+      "c": "主动确认：①是否需要 FNSKU 贴码 ②是否需要 OPP 透明袋单独包装 ③单件还是组合套装 ④是否需要纸卡或吊牌设计；提供 Amazon-ready 一站式报价"
+    },
+    {
+      "cat": "开模流程",
+      "t": "OEM 开模 SOP",
+      "c": "D+0 收到客户 3D 文件 → D+2 出模具 DFM 评审 → D+3 报开模费 → D+10 钢模完工 → D+13 试模出 3 件样品 → D+15 客户确认 → 进入量产排期"
+    },
+    {
+      "cat": "售后",
+      "t": "质量异议处理 SOP",
+      "c": "客户提供实物照片 + 批次号 → 24h 内技术组诊断 → 确认责任后 48h 内给方案：①补发免费替代 ②下单返点 5-10% ③退款（极端情况）；同步走 Alibaba 贸易保障流程"
+    }
   ],
   "footer": {
-    "ourCompany": {"en":"Our Company","zh":"关于我们","de":"Unser Unternehmen","es":"Nuestra Empresa"},
-    "contact": {"en":"Contact","zh":"联系我们","de":"Kontakt","es":"Contacto"},
-    "address": {"en":"Address","zh":"地址","de":"Adresse","es":"Direccion"},
-    "capabilities": {"en":"Capabilities","zh":"工厂能力","de":"Kompetenzen","es":"Capacidades"},
-    "rights": {"en":"All rights reserved.","zh":"版权所有","de":"Alle Rechte vorbehalten.","es":"Todos los derechos reservados."}
+    "ourCompany": {
+      "en": "Our Company",
+      "zh": "关于我们",
+      "de": "Unser Unternehmen",
+      "es": "Nuestra Empresa"
+    },
+    "contact": {
+      "en": "Contact",
+      "zh": "联系我们",
+      "de": "Kontakt",
+      "es": "Contacto"
+    },
+    "address": {
+      "en": "Address",
+      "zh": "地址",
+      "de": "Adresse",
+      "es": "Direccion"
+    },
+    "capabilities": {
+      "en": "Capabilities",
+      "zh": "工厂能力",
+      "de": "Kompetenzen",
+      "es": "Capacidades"
+    },
+    "rights": {
+      "en": "All rights reserved.",
+      "zh": "版权所有",
+      "de": "Alle Rechte vorbehalten.",
+      "es": "Todos los derechos reservados."
+    }
   }
 }
