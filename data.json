@@ -83,7 +83,14 @@
       "zh": "询价",
       "de": "Angebot anfordern",
       "es": "Solicitar Cotizacion"
-    }
+    },
+    "catalogEyebrow": {"en":"CATALOG","zh":"产品目录","de":"KATALOG","es":"CATALOGO"},
+    "catalogPageTitle": {"en":"Product Catalog","zh":"产品目录","de":"Produktkatalog","es":"Catalogo de Productos"},
+    "catalogSearchHint": {"en":"Search by name or SKU...","zh":"按名称或 SKU 搜索...","de":"Suche nach Name oder SKU...","es":"Buscar por nombre o SKU..."},
+    "filterAll": {"en":"All Categories","zh":"全部分类","de":"Alle Kategorien","es":"Todas las Categorias"},
+    "filterMat": {"en":"Silicone Baking Mats","zh":"硅胶烘焙垫","de":"Silikon-Backmatten","es":"Tapetes de Silicona"},
+    "filterMold": {"en":"Bread Molds & Pans","zh":"面包模与烤盘","de":"Brotformen & Backbleche","es":"Moldes y Bandejas"},
+    "filterOEM": {"en":"OEM Custom Projects","zh":"OEM 定制项目","de":"OEM Custom-Projekte","es":"Proyectos OEM"}
   },
   "hero": [
     {
