@@ -413,15 +413,15 @@
         "hi": "फूड - ग्रेड सिलिकॉन बेकिंग मैट। पेस्ट्री शेफ के लिए बनाया गया।"
       },
       "sub": {
-        "en": "Custom sizes, colors and logos. Non-stick, heat-resistant up to 230°C. MOQ from 100 pcs.",
-        "zh": "支持定制尺寸、颜色与 Logo。防粘、耐温至 230°C，起订量 100 件起",
-        "de": "Custom-Grossen, Farben und Logos. Antihaft, hitzebestandig bis 230°C. MOQ ab 100 Stk.",
-        "es": "Tamanos, colores y logos personalizados. Antiadherente, resistente al calor hasta 230°C. MOQ desde 100 unidades.",
+        "en": "Custom sizes, colors and logos. Non-stick, heat-resistant up to 230°C. MOQ from 1000 pcs.",
+        "zh": "支持定制尺寸、颜色与 Logo。防粘、耐温至 230°C，起订量 1000 件起",
+        "de": "Custom-Grossen, Farben und Logos. Antihaft, hitzebestandig bis 230°C. MOQ ab 1000 Stk.",
+        "es": "Tamanos, colores y logos personalizados. Antiadherente, resistente al calor hasta 230°C. MOQ desde 1000 unidades.",
         "fr": "Tailles, couleurs et logos personnalisés. Antiadhésif, résistant à la chaleur jusqu'à 230°C. MOQ à partir de 100 pièces.",
         "it": "Taglie, colori e loghi personalizzati. Antiaderente, resistente al calore fino a 230°C. MOQ da 100 pz.",
         "pt": "Tamanhos, cores e logotipos personalizados. Antiaderente, resistente ao calor até 230°C. MOQ a partir de 100 pçs.",
         "ru": "Индивидуальные размеры, цвета и логотипы. Антипригарное, термостойкое до 230°C. MOQ от 100 шт.",
-        "ko": "사용자 정의 크기, 색상 및 로고. 붙지 않고 최대 230°C의 내열성. MOQ 100개부터.",
+        "ko": "사용자 정의 크기, 색상 및 로고. 붙지 않고 최대 230°C의 내열성. MOQ 1000개부터.",
         "ja": "カスタムサイズ、カラー、ロゴ。ノンスティック、耐熱230 ℃まで。100個からのMOQ。",
         "ar": "أحجام وألوان وشعارات مخصصة. غير لاصقة، مقاومة للحرارة حتى 230 درجة مئوية. موك من 100 قطعة.",
         "th": "ขนาดสีและโลโก้ที่กำหนดเองไม่ติดทนความร้อนสูงถึง 230 องศาเซลเซียสขั้นต่ำจาก 100 ชิ้น",
@@ -677,7 +677,7 @@
       }
     },
     {
-      "value": "100",
+      "value": "1000",
       "label": {
         "en": "Pieces MOQ",
         "zh": "件起订量",
@@ -896,40 +896,40 @@
     {
       "icon": "📦",
       "title": {
-        "en": "Low MOQ - From 100 Pieces",
-        "zh": "超低起订量 · 100 件起",
+        "en": "MOQ From 1000 Pieces",
+        "zh": "超低起订量 · 1000 件起",
         "de": "Niedriges MOQ - ab 100 Stuck",
         "es": "MOQ Bajo - desde 100 piezas",
-        "it": "Low MOQ - From 100 Pieces",
-        "fr": "Low MOQ - From 100 Pieces",
-        "pt": "Low MOQ - From 100 Pieces",
-        "ru": "Low MOQ - From 100 Pieces",
-        "ja": "Low MOQ - From 100 Pieces",
-        "ko": "Low MOQ - From 100 Pieces",
-        "ar": "Low MOQ - From 100 Pieces",
-        "nl": "Low MOQ - From 100 Pieces",
-        "tr": "Low MOQ - From 100 Pieces",
-        "th": "Low MOQ - From 100 Pieces",
-        "hi": "Low MOQ - From 100 Pieces",
-        "vi": "Low MOQ - From 100 Pieces"
+        "it": "MOQ From 1000 Pieces",
+        "fr": "MOQ From 1000 Pieces",
+        "pt": "MOQ From 1000 Pieces",
+        "ru": "MOQ From 1000 Pieces",
+        "ja": "MOQ From 1000 Pieces",
+        "ko": "MOQ From 1000 Pieces",
+        "ar": "MOQ From 1000 Pieces",
+        "nl": "MOQ From 1000 Pieces",
+        "tr": "MOQ From 1000 Pieces",
+        "th": "MOQ From 1000 Pieces",
+        "hi": "MOQ From 1000 Pieces",
+        "vi": "MOQ From 1000 Pieces"
       },
       "desc": {
-        "en": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
+        "en": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
         "zh": "无需囤一柜先试水。多数爆款 SKU 100 件即发货",
-        "de": "Markt testen ohne Container-Verpflichtung. Viele Bestseller ab 100 Stk.",
-        "es": "Pruebe el mercado sin comprometer un contenedor. Muchos best-sellers desde 100 unidades.",
-        "fr": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "it": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "ru": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "ja": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "pt": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "ko": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "ar": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "tr": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "nl": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "th": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "vi": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs.",
-        "hi": "Test the market without committing to a container. Many bestselling SKUs ship from 100 pcs."
+        "de": "Markt testen ohne Container-Verpflichtung. Viele Bestseller ab 1000 Stk.",
+        "es": "Pruebe el mercado sin comprometer un contenedor. Muchos best-sellers desde 1000 unidades.",
+        "fr": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "it": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "ru": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "ja": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "pt": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "ko": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "ar": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "tr": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "nl": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "th": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "vi": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs.",
+        "hi": "Test the market without committing to a container. Many bestselling SKUs ship from 1000 pcs."
       },
       "cta": {
         "en": "View Catalog",
@@ -1865,7 +1865,7 @@
       },
       "sku": "XN-PROD-01",
       "price": "USD 4.30-5.50",
-      "moq": "100 units",
+      "moq": "1000 pieces",
       "category": "other",
       "images": [
         "products/p01.png"
@@ -2066,7 +2066,7 @@
       },
       "sku": "XN-MAT-02",
       "price": "USD 0.87-1",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mat",
       "images": [
         "products/p02.jpg"
@@ -2267,7 +2267,7 @@
       },
       "sku": "XN-PROD-03",
       "price": "USD 1.20-1.40",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "other",
       "images": [
         "products/p03.jpg"
@@ -2468,7 +2468,7 @@
       },
       "sku": "XN-PROD-04",
       "price": "USD 1.70-2.20",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "other",
       "images": [
         "products/p04.jpg"
@@ -2669,7 +2669,7 @@
       },
       "sku": "XN-PROD-05",
       "price": "USD 4.30-5.50",
-      "moq": "100 units",
+      "moq": "1000 pieces",
       "category": "other",
       "images": [
         "products/p05.jpg"
@@ -2870,7 +2870,7 @@
       },
       "sku": "XN-MOLD-06",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p06.jpg"
@@ -3071,7 +3071,7 @@
       },
       "sku": "XN-MOLD-07",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p07.jpg"
@@ -3272,7 +3272,7 @@
       },
       "sku": "XN-MOLD-08",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p08.jpg"
@@ -3473,7 +3473,7 @@
       },
       "sku": "XN-MOLD-09",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p09.jpg"
@@ -3674,7 +3674,7 @@
       },
       "sku": "XN-MOLD-10",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p10.jpg"
@@ -4076,7 +4076,7 @@
       },
       "sku": "XN-MOLD-12",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p12.jpg"
@@ -4277,7 +4277,7 @@
       },
       "sku": "XN-MOLD-13",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p13.jpg"
@@ -4478,7 +4478,7 @@
       },
       "sku": "XN-MOLD-14",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p14.jpg"
@@ -4679,7 +4679,7 @@
       },
       "sku": "XN-MOLD-15",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p15.jpg"
@@ -5081,7 +5081,7 @@
       },
       "sku": "XN-MOLD-17",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p17.jpg"
@@ -5282,7 +5282,7 @@
       },
       "sku": "XN-MOLD-18",
       "price": "USD 4.30-5.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p18.jpg"
@@ -5483,7 +5483,7 @@
       },
       "sku": "XN-MOLD-19",
       "price": "USD 4-5.40",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p19.jpg"
@@ -5684,7 +5684,7 @@
       },
       "sku": "XN-MOLD-20",
       "price": "USD 4-5.40",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p20.jpg"
@@ -5885,7 +5885,7 @@
       },
       "sku": "XN-MOLD-21",
       "price": "USD 4-5.40",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p21.jpg"
@@ -6086,7 +6086,7 @@
       },
       "sku": "XN-MOLD-22",
       "price": "USD 4-6",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p22.jpg"
@@ -6287,7 +6287,7 @@
       },
       "sku": "XN-MOLD-23",
       "price": "USD 5.30-6.30",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p23.jpg"
@@ -6488,7 +6488,7 @@
       },
       "sku": "XN-MOLD-24",
       "price": "USD 10-11",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p24.jpg"
@@ -6689,7 +6689,7 @@
       },
       "sku": "XN-MOLD-25",
       "price": "USD 10.50-11.50",
-      "moq": "50 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p25.jpg"
@@ -6890,7 +6890,7 @@
       },
       "sku": "XN-MOLD-26",
       "price": "USD 10-11",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p26.jpg"
@@ -7091,7 +7091,7 @@
       },
       "sku": "XN-MOLD-27",
       "price": "USD 5.80-6.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p27.jpg"
@@ -7292,7 +7292,7 @@
       },
       "sku": "XN-MOLD-28",
       "price": "USD 10-11",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p28.jpg"
@@ -7493,7 +7493,7 @@
       },
       "sku": "XN-MOLD-29",
       "price": "USD 4-5",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p29.jpg"
@@ -7694,7 +7694,7 @@
       },
       "sku": "XN-MOLD-30",
       "price": "USD 4-6",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p30.png"
@@ -7895,7 +7895,7 @@
       },
       "sku": "XN-MOLD-31",
       "price": "USD 5.50-6.30",
-      "moq": "300 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p31.jpg"
@@ -8096,7 +8096,7 @@
       },
       "sku": "XN-MOLD-32",
       "price": "USD 4-6",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p32.jpg"
@@ -8297,7 +8297,7 @@
       },
       "sku": "XN-MOLD-33",
       "price": "USD 4-5",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p33.png"
@@ -8498,7 +8498,7 @@
       },
       "sku": "XN-MAT-34",
       "price": "USD 4-4.50",
-      "moq": "300 pieces",
+      "moq": "1000 pieces",
       "category": "mat",
       "images": [
         "products/p34.png"
@@ -8699,7 +8699,7 @@
       },
       "sku": "XN-MOLD-35",
       "price": "USD 4-6",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p35.png"
@@ -8900,7 +8900,7 @@
       },
       "sku": "XN-MOLD-36",
       "price": "USD 4-5",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p36.png"
@@ -9101,7 +9101,7 @@
       },
       "sku": "XN-MOLD-37",
       "price": "USD 5.30-5.50",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p37.jpg"
@@ -9302,7 +9302,7 @@
       },
       "sku": "XN-MOLD-38",
       "price": "USD 5.80-6.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p38.jpg"
@@ -9503,7 +9503,7 @@
       },
       "sku": "XN-MOLD-39",
       "price": "USD 5-6",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p39.jpg"
@@ -9704,7 +9704,7 @@
       },
       "sku": "XN-MOLD-40",
       "price": "USD 5-6",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p40.jpg"
@@ -9905,7 +9905,7 @@
       },
       "sku": "XN-MOLD-41",
       "price": "USD 8-10",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p41.jpg"
@@ -10106,7 +10106,7 @@
       },
       "sku": "XN-PROD-42",
       "price": "USD 10-11",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "other",
       "images": [
         "products/p42.jpg"
@@ -10307,7 +10307,7 @@
       },
       "sku": "XN-MOLD-43",
       "price": "USD 5.80-6.80",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p43.jpg"
@@ -10508,7 +10508,7 @@
       },
       "sku": "XN-MOLD-44",
       "price": "USD 10-11",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p44.jpg"
@@ -10709,7 +10709,7 @@
       },
       "sku": "XN-MOLD-45",
       "price": "USD 3.30-4.30",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "other",
       "images": [
         "products/p45.png"
@@ -10910,7 +10910,7 @@
       },
       "sku": "XN-MAT-46",
       "price": "USD 3.30-4.20",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mat",
       "images": [
         "products/p46.jpg"
@@ -11111,7 +11111,7 @@
       },
       "sku": "XN-MOLD-47",
       "price": "USD 10-11",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p47.jpg"
@@ -11312,7 +11312,7 @@
       },
       "sku": "XN-MOLD-48",
       "price": "USD 10-11.50",
-      "moq": "50 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p48.jpg"
@@ -11513,7 +11513,7 @@
       },
       "sku": "XN-MOLD-49",
       "price": "USD 10-11",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mold",
       "images": [
         "products/p49.jpg"
@@ -11714,7 +11714,7 @@
       },
       "sku": "XN-MAT-50",
       "price": "USD 0.70",
-      "moq": "100 pieces",
+      "moq": "1000 pieces",
       "category": "mat",
       "images": [
         "products/p50.jpg"
@@ -11898,7 +11898,7 @@
     {
       "cat": "客户画像",
       "t": "北美亚马逊卖家",
-      "c": "通常先订 100-300 件试销，重看 ASIN 表现；要求 FNSKU 贴码、OPP 透明袋、A4 纸卡。复购周期 45-60 天"
+      "c": "通常起订 1000+ 件试销，重看 ASIN 表现；要求 FNSKU 贴码、OPP 透明袋、A4 纸卡。复购周期 45-60 天"
     },
     {
       "cat": "客户画像",
@@ -11908,7 +11908,7 @@
     {
       "cat": "客户画像",
       "t": "南欧买家 (西/意)",
-      "c": "价格敏感 + 喜欢明亮色（红橙黄）；通常通过西语/意语沟通；MOQ 100-300 件试单为主"
+      "c": "价格敏感 + 喜欢明亮色（红橙黄）；通常通过西语/意语沟通；MOQ 1000-300 件试单为主"
     },
     {
       "cat": "客户画像",
