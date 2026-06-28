@@ -90,7 +90,8 @@
     "filterAll": {"en":"All Categories","zh":"全部分类","de":"Alle Kategorien","es":"Todas las Categorias"},
     "filterMat": {"en":"Silicone Baking Mats","zh":"硅胶烘焙垫","de":"Silikon-Backmatten","es":"Tapetes de Silicona"},
     "filterMold": {"en":"Bread Molds & Pans","zh":"面包模与烤盘","de":"Brotformen & Backbleche","es":"Moldes y Bandejas"},
-    "filterOEM": {"en":"OEM Custom Projects","zh":"OEM 定制项目","de":"OEM Custom-Projekte","es":"Proyectos OEM"}
+    "filterOEM": {"en":"OEM Custom Projects","zh":"OEM 定制项目","de":"OEM Custom-Projekte","es":"Proyectos OEM"},
+    "backHome": {"en":"← Back to Home","zh":"← 返回首页","de":"← Zur Startseite","es":"← Volver al Inicio"}
   },
   "hero": [
     {
