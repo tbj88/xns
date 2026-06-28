@@ -42,13 +42,32 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 .nav a.staff-only,.nav a.admin-only{display:none}
 body.staff-mode .nav a.staff-only,body.admin-mode .nav a.staff-only,body.admin-mode .nav a.admin-only{display:inline-block}
 .lang-wrap{position:relative}
-.lang-btn{display:flex;align-items:center;gap:6px;padding:8px 12px;border:1px solid var(--c-line);border-radius:8px;font-size:14px;background:#fff}
-.lang-dropdown{position:absolute;top:calc(100% + 6px);right:0;background:#fff;border:1px solid var(--c-line);border-radius:10px;box-shadow:var(--shadow-md);overflow:hidden;display:none;min-width:160px;z-index:60}
-.lang-dropdown.open{display:block}
-.lang-dropdown button{display:flex;align-items:center;gap:10px;padding:10px 14px;width:100%;text-align:left;font-size:14px;border-bottom:1px solid var(--c-line)}
-.lang-dropdown button:last-child{border-bottom:0}
-.lang-dropdown button:hover{background:#F1F5F9}
-.lang-dropdown button.active{background:#EEF2F7;font-weight:700;color:var(--c-primary)}
+.lang-btn{display:flex;align-items:center;gap:6px;padding:8px 12px;border:1px solid var(--c-line);border-radius:8px;font-size:14px;background:#fff;cursor:pointer;transition:all .15s}
+.lang-btn:hover{border-color:var(--c-primary);color:var(--c-primary)}
+/* 全屏语言弹窗 */
+.lang-modal-backdrop{position:fixed;inset:0;background:rgba(15,23,42,.55);z-index:200;display:none;align-items:flex-start;justify-content:center;padding:60px 20px 40px;overflow-y:auto;backdrop-filter:blur(4px)}
+.lang-modal-backdrop.open{display:flex;animation:fadeIn .2s ease}
+.lang-modal{background:#fff;border-radius:14px;box-shadow:var(--shadow-lg);width:100%;max-width:1100px;padding:32px 40px 36px;position:relative;animation:slideUp .25s ease}
+@keyframes slideUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
+.lang-modal-close{position:absolute;top:14px;right:14px;width:36px;height:36px;border-radius:8px;background:transparent;color:var(--c-ink-soft);font-size:22px;display:flex;align-items:center;justify-content:center}
+.lang-modal-close:hover{background:#F1F5F9;color:var(--c-ink)}
+.lang-modal h3{font-size:22px;font-weight:800;letter-spacing:-.3px;margin-bottom:6px;color:var(--c-ink)}
+.lang-modal .lang-sub{font-size:14px;color:var(--c-ink-soft);margin-bottom:24px}
+.lang-modal .lang-group{margin-bottom:24px}
+.lang-modal .lang-group-title{font-size:11.5px;font-weight:800;letter-spacing:2px;color:var(--c-primary);text-transform:uppercase;margin-bottom:12px;padding-bottom:8px;border-bottom:1px solid var(--c-line)}
+.lang-modal .lang-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px 16px}
+.lang-modal .lang-row{display:flex;align-items:center;gap:12px;padding:10px 12px;border-radius:8px;cursor:pointer;font-size:14.5px;color:var(--c-ink);transition:all .12s;border:1px solid transparent}
+.lang-modal .lang-row:hover{background:#F8FAFC;border-color:var(--c-line)}
+.lang-modal .lang-row.active{background:#EEF2F7;border-color:var(--c-primary);font-weight:700;color:var(--c-primary)}
+.lang-modal .lang-row .flag{font-size:22px;line-height:1}
+.lang-modal .lang-row .label{flex:1;min-width:0}
+.lang-modal .lang-row .check{color:var(--c-primary);font-weight:800}
+@media(max-width:900px){.lang-modal{padding:24px 22px 28px}.lang-modal .lang-grid{grid-template-columns:repeat(2,1fr)}.lang-modal h3{font-size:19px}}
+@media(max-width:500px){.lang-modal .lang-grid{grid-template-columns:1fr}}
+/* RTL 阿语 */
+[dir="rtl"] .nav{flex-direction:row-reverse}
+[dir="rtl"] .hdr-inner{direction:rtl}
+[dir="rtl"] .lang-modal{direction:rtl;text-align:right}
 
 /* === Hero === */
 .hero{position:relative;overflow:hidden;background:#0F172A}
@@ -308,13 +327,7 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
       <a href="#" onclick="route('sop');return false" class="staff-only" data-uk="navSop">Scripts & SOP</a>
     </nav>
     <div class="lang-wrap" translate="no">
-      <button class="lang-btn" onclick="toggleLangDropdown()" id="langBtnLabel" translate="no">🇺🇸 English ▾</button>
-      <div class="lang-dropdown" id="langDropdown" translate="no">
-        <button onclick="setLang('en')" data-lang="en" translate="no">🇺🇸 English</button>
-        <button onclick="setLang('zh')" data-lang="zh" translate="no">🇨🇳 中文</button>
-        <button onclick="setLang('de')" data-lang="de" translate="no">🇩🇪 Deutsch</button>
-        <button onclick="setLang('es')" data-lang="es" translate="no">🇪🇸 Espanol</button>
-      </div>
+      <button class="lang-btn" onclick="openLangModal()" id="langBtnLabel" translate="no">🌐 English ▾</button>
     </div>
     <button class="menu-toggle" onclick="document.getElementById('mainNav').classList.toggle('open')">☰</button>
   </div>
@@ -322,6 +335,16 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 
 <div class="mode-badge staff">STAFF MODE</div>
 <div class="mode-badge admin">ADMIN MODE</div>
+
+<!-- 全屏语言选择弹窗 -->
+<div class="lang-modal-backdrop" id="langModal" translate="no" onclick="if(event.target===this)closeLangModal()">
+  <div class="lang-modal" role="dialog" aria-labelledby="langModalTitle">
+    <button class="lang-modal-close" onclick="closeLangModal()" aria-label="Close">×</button>
+    <h3 id="langModalTitle">Choose Your Language</h3>
+    <p class="lang-sub">Select your preferred language to browse our products.</p>
+    <div id="langModalBody"></div>
+  </div>
+</div>
 
 <!-- ===== HOME ===== -->
 <main id="page-home" class="page active">
@@ -510,8 +533,8 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
       </div>
     </div>
     <div class="footer-bottom">
-      <span>© <span id="ft-year"></span> QIDA Recycling. <span id="ft-rights"></span></span>
-      <span>Made for recyclers. Trusted worldwide.</span>
+      <span>© <span id="ft-year"></span> <span id="ft-brand-name" translate="no">XinNeng Silicone</span>. <span id="ft-rights"></span></span>
+      <span id="ft-bottom-tagline" translate="no">Food-Grade Silicone. Made for Bakers Worldwide.</span>
     </div>
   </div>
 </footer>
@@ -535,7 +558,7 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 
 <script>
 /* ============================================================
- * QIDA Recycling - Single-File SPA
+ * Brand Site - Single-File SPA
  * 3 levels: public / ?staff / ?admin
  * 4 languages: en/zh/de/es
  * Admin uses GitHub Contents API for persistence
@@ -607,21 +630,77 @@ function routeToProduct(id){
 }
 
 /* ===== Language ===== */
-const LANG_LABELS = {en:"🇺🇸 English", zh:"🇨🇳 中文", de:"🇩🇪 Deutsch", es:"🇪🇸 Espanol"};
+// 16 种语言，按地理区域分组（首版 EN/ZH/DE/ES 是真翻译，其余 12 种为机翻）
+const LANGS = [
+  {code:"en", flag:"🇺🇸", label:"English",       group:"global"},
+  {code:"zh", flag:"🇨🇳", label:"简体中文",       group:"asia",   htmlLang:"zh-CN"},
+  {code:"de", flag:"🇩🇪", label:"Deutsch",       group:"europe"},
+  {code:"es", flag:"🇪🇸", label:"Español",       group:"europe"},
+  {code:"fr", flag:"🇫🇷", label:"Français",      group:"europe"},
+  {code:"it", flag:"🇮🇹", label:"Italiano",      group:"europe"},
+  {code:"pt", flag:"🇵🇹", label:"Português",     group:"europe"},
+  {code:"nl", flag:"🇳🇱", label:"Nederlands",    group:"europe"},
+  {code:"ru", flag:"🇷🇺", label:"Русский",       group:"europe"},
+  {code:"tr", flag:"🇹🇷", label:"Türkçe",        group:"europe"},
+  {code:"ja", flag:"🇯🇵", label:"日本語",         group:"asia"},
+  {code:"ko", flag:"🇰🇷", label:"한국어",         group:"asia"},
+  {code:"th", flag:"🇹🇭", label:"ไทย",           group:"asia"},
+  {code:"vi", flag:"🇻🇳", label:"Tiếng Việt",    group:"asia"},
+  {code:"hi", flag:"🇮🇳", label:"हिन्दी",          group:"asia"},
+  {code:"ar", flag:"🇸🇦", label:"العربية",       group:"mideast", rtl:true}
+];
+const LANG_BY_CODE = Object.fromEntries(LANGS.map(x=>[x.code,x]));
+const LANG_GROUPS = [
+  {key:"global",  title:{en:"Global",        zh:"全球",       de:"Weltweit",     es:"Global"}},
+  {key:"asia",    title:{en:"Asia Pacific",  zh:"亚太地区",    de:"Asien-Pazifik",es:"Asia Pacifico"}},
+  {key:"europe",  title:{en:"Europe",        zh:"欧洲",       de:"Europa",       es:"Europa"}},
+  {key:"mideast", title:{en:"Middle East",   zh:"中东",       de:"Naher Osten",  es:"Medio Oriente"}}
+];
+
 function setLang(l){
+  if(!LANG_BY_CODE[l]) l = "en";
   LANG = l;
   localStorage.setItem(BRAND+"_lang", l);
+  const meta = LANG_BY_CODE[l];
   // Tell Chrome the page IS now in this language so it stops offering "Translate this page".
-  document.documentElement.lang = (l==="zh"?"zh-CN":l);
+  document.documentElement.lang = meta.htmlLang || l;
   document.documentElement.setAttribute("translate","no");
-  Q("#langBtnLabel").textContent = LANG_LABELS[l] + " ▾";
-  QA(".lang-dropdown button").forEach(b=>b.classList.toggle("active", b.dataset.lang===l));
-  Q("#langDropdown").classList.remove("open");
+  document.documentElement.dir = meta.rtl ? "rtl" : "ltr";
+  Q("#langBtnLabel").textContent = meta.flag + " " + meta.label + " ▾";
+  closeLangModal();
   renderAll();
 }
-function toggleLangDropdown(){Q("#langDropdown").classList.toggle("open")}
-document.addEventListener("click", e=>{
-  if(!e.target.closest(".lang-wrap")) Q("#langDropdown")?.classList.remove("open");
+
+function openLangModal(){
+  // 按分组渲染语言网格
+  const body = Q("#langModalBody");
+  body.innerHTML = LANG_GROUPS.map(g=>{
+    const items = LANGS.filter(x=>x.group===g.key);
+    if(!items.length) return "";
+    const title = L(g.title) || g.title.en;
+    return `
+      <div class="lang-group">
+        <div class="lang-group-title">${esc(title)}</div>
+        <div class="lang-grid">
+          ${items.map(x=>`
+            <div class="lang-row${x.code===LANG?' active':''}" onclick="setLang('${x.code}')" data-lang="${x.code}">
+              <span class="flag">${x.flag}</span>
+              <span class="label" translate="no">${esc(x.label)}</span>
+              ${x.code===LANG?'<span class="check">✓</span>':''}
+            </div>`).join("")}
+        </div>
+      </div>`;
+  }).join("");
+  Q("#langModal").classList.add("open");
+  document.body.style.overflow = "hidden";
+}
+function closeLangModal(){
+  Q("#langModal").classList.remove("open");
+  document.body.style.overflow = "";
+}
+// ESC 关闭
+document.addEventListener("keydown", e=>{
+  if(e.key==="Escape") closeLangModal();
 });
 
 /* ===== Load ===== */
@@ -927,6 +1006,9 @@ function renderFooter(){
   Q("#ft-address").textContent = L(DATA.brand.address);
   Q("#ft-year").textContent = new Date().getFullYear();
   Q("#ft-rights").textContent = L(DATA.footer.rights);
+  // Bottom strip: 永远用 brand.name + brand.tagline（已 i18n）
+  const fb = Q("#ft-brand-name"); if(fb) fb.textContent = DATA.brand.name || "";
+  const fbt = Q("#ft-bottom-tagline"); if(fbt) fbt.textContent = L(DATA.brand.tagline);
   Q("[data-uk='ftContact']").textContent = L(DATA.footer.contact);
   Q("[data-uk='ftAddress']").textContent = L(DATA.footer.address);
   Q("[data-uk='ftCapabilities']").textContent = L(DATA.footer.capabilities);
