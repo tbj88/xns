@@ -149,7 +149,12 @@ body.staff-mode .nav a.staff-only,body.admin-mode .nav a.staff-only,body.admin-m
 
 /* === Product Detail === */
 .pd-container{max-width:1280px;margin:0 auto;padding:48px 24px}
-.pd-back{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;color:var(--c-primary);margin-bottom:20px}
+.pd-back{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:var(--c-primary);margin-bottom:24px;padding:9px 16px;background:#fff;border:1px solid var(--c-line);border-radius:8px;transition:all .15s}
+.pd-back:hover{background:var(--c-primary);color:#fff;border-color:var(--c-primary);transform:translateX(-2px)}
+
+/* === Back-to-home button (catalog / certs / partners 等子页用) === */
+.page-back{display:inline-flex;align-items:center;gap:8px;font-size:14px;font-weight:600;color:var(--c-primary);margin-bottom:20px;padding:9px 16px;background:#fff;border:1px solid var(--c-line);border-radius:8px;transition:all .15s;cursor:pointer}
+.page-back:hover{background:var(--c-primary);color:#fff;border-color:var(--c-primary);transform:translateX(-2px)}
 .pd-grid{display:grid;grid-template-columns:1fr 1fr;gap:48px}
 .pd-gallery{position:sticky;top:90px;align-self:start}
 .pd-main-img{aspect-ratio:1/1;background:#fff;border:1px solid var(--c-line);border-radius:var(--radius);overflow:hidden}
@@ -383,18 +388,14 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-catalog" class="page">
   <section class="section">
     <div class="section-inner">
+      <a class="page-back" href="#" onclick="route('home');return false" data-uk="backHome">← Back to Home</a>
       <div class="section-head" style="text-align:left" translate="no">
         <div class="eyebrow linklike" data-uk="catalogEyebrow" onclick="document.getElementById('catalogSearch').focus()">CATALOG</div>
         <h2 class="h2" id="catalogPageTitle" data-uk="catalogPageTitle" translate="no">Product Catalog</h2>
       </div>
       <div class="catalog-toolbar">
         <input id="catalogSearch" data-uk-placeholder="catalogSearchHint" placeholder="Search by name or SKU..." oninput="renderCatalog()">
-        <select id="catalogFilter" onchange="renderCatalog()">
-          <option value="">All Categories</option>
-          <option value="granulator">Copper Wire Granulators</option>
-          <option value="shredder">Heavy-Duty Shredders</option>
-          <option value="stripper">Wire Strippers & Separators</option>
-        </select>
+        <select id="catalogFilter" onchange="renderCatalog()"></select>
       </div>
       <div class="products-grid editable" data-edit="products" id="productsGrid">
         <span class="edit-affordance">✎ Edit Products</span>
@@ -412,6 +413,7 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-certs" class="page">
   <section class="section">
     <div class="section-inner">
+      <a class="page-back" href="#" onclick="route('home');return false" data-uk="backHome">← Back to Home</a>
       <div translate="no" class="section-head">
         <div class="eyebrow">CREDENTIALS</div>
         <h2 translate="no" class="h2" id="certsTitle"></h2>
@@ -427,6 +429,7 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-partners" class="page">
   <section class="section">
     <div class="section-inner">
+      <a class="page-back" href="#" onclick="route('home');return false" data-uk="backHome">← Back to Home</a>
       <div translate="no" class="section-head">
         <div class="eyebrow">PARTNER INDUSTRIES</div>
         <h2 translate="no" class="h2" id="partnersPageTitle"></h2>
@@ -441,6 +444,7 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-intel" class="page">
   <section class="section">
     <div class="section-inner">
+      <a class="page-back" href="#" onclick="route('home');return false" data-uk="backHome">← Back to Home</a>
       <div translate="no" class="section-head" style="text-align:left">
         <div class="eyebrow">INTERNAL</div>
         <h2 translate="no" class="h2">Customer Intelligence & Personas</h2>
@@ -457,6 +461,7 @@ body.staff-mode .mode-badge.staff,body.admin-mode .mode-badge.admin{display:bloc
 <main id="page-sop" class="page">
   <section class="section">
     <div class="section-inner">
+      <a class="page-back" href="#" onclick="route('home');return false" data-uk="backHome">← Back to Home</a>
       <div translate="no" class="section-head" style="text-align:left">
         <div class="eyebrow">INTERNAL</div>
         <h2 translate="no" class="h2">Sales Scripts & SOP</h2>
